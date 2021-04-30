@@ -135,3 +135,40 @@ header section small {
     font-family: "Noto Sans", sans-serif;
   }
 }
+
+@media only screen and (min-width: 800px) {
+  header {
+    grid-area: sidebar;
+    background-color: white;
+    align-items: flex-end;
+    padding-right: 60px;
+  }
+
+  header section {
+    margin: 0;
+    padding: 0;
+    width: 75%;
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+
+  header section button {
+    display: none;
+  }
+
+  header section img {
+    width: 200px;
+  }
+
+  header section section {
+    width: 100%;
+  }
+
+  header nav {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    width: 75%;
+  }
+}

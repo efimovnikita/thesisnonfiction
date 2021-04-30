@@ -260,11 +260,25 @@
     </nav>
     <footer><small>Proudly powered by Maskedball</small></footer>
     <script>
+      if (window.innerWidth > 800) {
+        let nav = document.getElementById("main-navigation");
+        nav.style.display = "flex";
+      }
+
       document
         .getElementById("burger-button")
-        .addEventListener("click", myFunction);
+        .addEventListener("click", toggleButton);
 
-      function myFunction() {
+      window.addEventListener("resize", toggleMenu);
+
+      function toggleMenu() {
+        if (window.innerWidth > 800) {
+          let nav = document.getElementById("main-navigation");
+          nav.style.display = "flex";
+        }
+      }
+
+      function toggleButton() {
         let button = document.getElementById("burger-button");
         button.innerHTML = button.innerHTML === "✕" ? "☰" : "✕";
 

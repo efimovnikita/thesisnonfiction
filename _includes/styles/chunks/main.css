@@ -78,3 +78,30 @@ main section article footer aside a {
     background-color: white;
   }
 }
+
+@media only screen and (min-width: 800px) {
+  main {
+    grid-area: main;
+  }
+
+  main section article {
+    padding-top: 2%;
+  }
+
+  main section article p {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  main section article h2 {
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  main section article footer {
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+}
