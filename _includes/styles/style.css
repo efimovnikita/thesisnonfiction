@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap");
-@import "mobile/header.css";
-@import "mobile/main.css";
-@import "mobile/nav.css";
-@import "mobile/footer.css";
+@import "chunks/header.css";
+@import "chunks/main.css";
+@import "chunks/nav.css";
+@import "chunks/footer.css";
 
 * {
   padding: 0;
@@ -10,4 +10,8 @@
   box-sizing: border-box;
   font-family: "Noto Serif", serif;
   color: #333;
+}
+
+body {
+  background-color: rgb(241, 241, 241);
 }
