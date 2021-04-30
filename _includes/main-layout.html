@@ -11,11 +11,15 @@
   <body>
     <header>
       <section>
-        <img src="images/logo.jpg" alt="Logo" />
-        <h2>Тезисы из научно-популярных книг</h2>
-        <small>Примат Сути над видимостью…</small>
+        <h2>Logo section</h2>
+        <section>
+          <img src="images/logo.jpg" alt="Logo" />
+          <h2>Тезисы из научно-популярных книг</h2>
+          <small>Примат Сути над видимостью…</small>
+        </section>
+        <button name="button" id="burger-button">☰</button>
       </section>
-      <nav>
+      <nav id="main-navigation" style="display: none">
         <h3>ПРОЧИТАННЫЕ КНИГИ</h3>
         <ul>
           <li><a href="#">Александр Невзоров. Искусство оскорблять</a></li>
@@ -47,41 +51,70 @@
           <li><a href="#">Кевин Сайтс. Синдром войны</a></li>
           <li><a href="#">Книги</a></li>
         </ul>
-        <input
-          type="text"
-          name="search"
-          minlength="4"
-          maxlength="8"
-          size="10"
-          placeholder="Search ..."
-        />
+        <input type="text" name="search" placeholder="Search ..." />
       </nav>
-      <button name="button">&#9776;</button>
     </header>
     <main>
       <section>
-        <h2>Записи</h2>
+        <h2>Posts section</h2>
         <article>
           <h2><a href="#">Вселенная атомов и атом во вселенной</a></h2>
+          <p>… I stand at the seashore, alone, and start to think.</p>
           <p>
-            … I stand at the seashore, alone, and start to think. There are the
-            rushing waves mountains of molecules each stupidly minding its own
-            business trillions apart yet forming white surf in unison Ages on
-            ages before any eyes could see year after year thunderously pounding
-            the shore as now. For whom, for what? On a dead planet with no life
-            to entertain. Never at rest, tortured by energy wasted prodigiously
-            by the Sun, poured into space. A mite makes the sea roar. Deep in
-            the sea all molecules repeat the patterns of one another till
-            complex new ones are formed. They make others like themselves and a
-            new dance starts. Growing in size and complexity living things
-            masses of atoms DNA, protein dancing a pattern ever more intricate.
-            Out of the cradle onto dry land here it is standing: atoms with
-            consciousness; matter with curiosity. Stands at the sea, wonders at
-            wondering: I… a universe of atoms… an atom in the Universe. Richard
-            Phillips Feynman
+            There are the rushing waves<br />
+            mountains of molecules<br />
+            each stupidly minding its own business<br />
+            trillions apart<br />
+            yet forming white surf in unison
           </p>
+          <p>
+            Ages on ages<br />
+            before any eyes could see<br />
+            year after year<br />
+            thunderously pounding the shore as now.<br />
+            For whom, for what?<br />
+            On a dead planet<br />
+            with no life to entertain.
+          </p>
+          <p>
+            Never at rest,<br />
+            tortured by energy<br />
+            wasted prodigiously by the Sun,<br />
+            poured into space.<br />
+            A mite makes the sea roar.
+          </p>
+          <p>
+            Deep in the sea<br />
+            all molecules repeat<br />
+            the patterns of one another<br />
+            till complex new ones are formed.<br />
+            They make others like themselves<br />
+            and a new dance starts.<br />
+            Growing in size and complexity<br />
+            living things<br />
+            masses of atoms<br />
+            DNA, protein<br />
+            dancing a pattern ever more intricate.
+          </p>
+          <p>
+            Out of the cradle<br />
+            onto dry land<br />
+            here it is<br />
+            standing:<br />
+            atoms with consciousness;<br />
+            matter with curiosity.
+          </p>
+          <p>
+            Stands at the sea,<br />
+            wonders at wondering: I…<br />
+            a universe of atoms…<br />
+            an atom in the Universe.
+          </p>
+          <p><em>Richard Phillips Feynman</em></p>
           <footer>
+            <img src="images/calendar.svg" alt="date" />
             <time>2019-04-14</time>
+            <img src="images/folder.svg" alt="category" />
             <aside><a href="#">Книги</a></aside>
           </footer>
         </article>
@@ -98,7 +131,9 @@
             самоконтроль.
           </p>
           <footer>
+            <img src="images/calendar.svg" alt="date" />
             <time>2018-02-22</time>
+            <img src="images/folder.svg" alt="category" />
             <aside>
               <a href="#"
                 >Келли Макгонигал. Сила воли: Как развить и укрепить</a
@@ -116,7 +151,9 @@
             которая иссушает силы.
           </p>
           <footer>
+            <img src="images/calendar.svg" alt="date" />
             <time>2018-02-22</time>
+            <img src="images/folder.svg" alt="category" />
             <aside>
               <a href="#"
                 >Келли Макгонигал. Сила воли: Как развить и укрепить</a
@@ -134,7 +171,9 @@
             еще один путь к раскаянию, которое подталкивает нас к соблазну.
           </p>
           <footer>
+            <img src="images/calendar.svg" alt="date" />
             <time>2018-02-22</time>
+            <img src="images/folder.svg" alt="category" />
             <aside>
               <a href="#"
                 >Келли Макгонигал. Сила воли: Как развить и укрепить</a
@@ -156,7 +195,9 @@
             еще больше (или объесться в одиночку).
           </p>
           <footer>
+            <img src="images/calendar.svg" alt="date" />
             <time>2018-02-22</time>
+            <img src="images/folder.svg" alt="category" />
             <aside>
               <a href="#"
                 >Келли Макгонигал. Сила воли: Как развить и укрепить</a
@@ -176,7 +217,9 @@
             так как знала, что в стрессе нельзя доверять импульсам.
           </p>
           <footer>
+            <img src="images/calendar.svg" alt="date" />
             <time>2018-02-22</time>
+            <img src="images/folder.svg" alt="category" />
             <aside>
               <a href="#"
                 >Келли Макгонигал. Сила воли: Как развить и укрепить</a
@@ -199,7 +242,9 @@
             испаряются.
           </p>
           <footer>
+            <img src="images/calendar.svg" alt="date" />
             <time>2018-02-22</time>
+            <img src="images/folder.svg" alt="category" />
             <aside>
               <a href="#"
                 >Келли Макгонигал. Сила воли: Как развить и укрепить</a
@@ -209,6 +254,23 @@
         </article>
       </section>
     </main>
-    <footer>Proudly powered by Maskedball</footer>
+    <nav>
+      <span>1</span>
+      <a href="#">&#129122;</a>
+    </nav>
+    <footer><small>Proudly powered by Maskedball</small></footer>
+    <script>
+      document
+        .getElementById("burger-button")
+        .addEventListener("click", myFunction);
+
+      function myFunction() {
+        let button = document.getElementById("burger-button");
+        button.innerHTML = button.innerHTML === "✕" ? "☰" : "✕";
+
+        let nav = document.getElementById("main-navigation");
+        nav.style.display = nav.style.display === "none" ? "flex" : "none";
+      }
+    </script>
   </body>
 </html>
