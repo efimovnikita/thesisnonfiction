@@ -1,0 +1,67 @@
+nav {
+  grid-area: post-nav;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+}
+
+nav div {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  width: 100%;
+  border-top: 1px solid rgba(51, 51, 51, 0.1);
+}
+
+nav div:first-child {
+  border: 0;
+}
+
+nav div a {
+  display: block;
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Noto Sans", sans-serif;
+}
+
+nav div span {
+  margin-right: 0;
+  margin-left: 0;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: gray;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+}
+
+@media only screen and (min-width: 400px) {
+  nav {
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  nav {
+    margin-left: 40px;
+    margin-right: 40px;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+  }
+
+  nav div span {
+    font-size: 14px;
+  }
+
+  nav div a {
+    font-size: 20px;
+  }
+}
