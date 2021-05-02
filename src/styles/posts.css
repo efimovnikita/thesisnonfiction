@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap");
+@import "chunks/header.css";
+@import "chunks/main.css";
+@import "chunks/nav.css";
+@import "chunks/footer.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif", serif;
+  color: #333;
+}
+
+body {
+  background-color: rgb(241, 241, 241);
+}
+
+@media only screen and (min-width: 800px) {
+  body {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+
+    grid-template-areas:
+      "sidebar main"
+      "sidebar pagination"
+      "sidebar footer";
+  }
+}

@@ -1,0 +1,82 @@
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  background-color: white;
+}
+
+nav span {
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: 50%;
+}
+
+nav a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  width: 48px;
+  height: 48px;
+  background-color: #333;
+  color: white;
+  font-size: 25px;
+}
+
+.post-navigation {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  background-color: white;
+}
+
+.post-navigation div {
+  display: flex;
+  flex-direction: column;
+  padding: 5%;
+  width: 100%;
+  border-top: 1px solid rgba(51, 51, 51, 0.1);
+}
+
+.post-navigation div:first-child {
+  border: 0;
+}
+
+.nav-post-link {
+  display: block;
+  text-decoration: none;
+  width: auto;
+  height: auto;
+  background-color: transparent;
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.link-label {
+  margin-right: 0;
+  margin-left: 0;
+  text-transform: uppercase;
+  font-size: 11px;
+  color: gray;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.1em;
+}
+
+@media only screen and (min-width: 400px) {
+  nav {
+    margin: 40px;
+    border: 1px solid rgba(51, 51, 51, 0.1);
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  nav {
+    grid-area: pagination;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+}

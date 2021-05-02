@@ -1,0 +1,21 @@
+<header>
+    <section>
+    <h2>Logo section</h2>
+    <section>
+        <img src="/images/logo.jpg" alt="Logo" />
+        <h2>Тезисы из научно-популярных книг</h2>
+        <small>Примат Сути над видимостью…</small>
+    </section>
+    <button name="button" id="burger-button">☰</button>
+    </section>
+    <nav id="main-navigation" style="display: none">
+    <h3>ПРОЧИТАННЫЕ КНИГИ</h3>
+    {% set navPages = collections.all | eleventyNavigation %}
+    <ul>
+        {%- for entry in navPages %}
+            <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
+        {%- endfor %}
+    </ul>
+    <input type="text" name="search" placeholder="Search ..." />
+    </nav>
+</header>
