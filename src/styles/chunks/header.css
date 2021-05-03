@@ -126,6 +126,7 @@ header section small {
     margin-right: 40px;
     padding: 30px;
     border: 1px solid rgba(51, 51, 51, 0.1);
+    background-color: white;
   }
 
   header section small {
@@ -142,6 +143,12 @@ header section small {
     background-color: white;
     align-items: flex-end;
     padding-right: 60px;
+    overflow: scroll;
+    scrollbar-width: none;
+  }
+
+  header::-webkit-scrollbar {
+    display: none;
   }
 
   header section {

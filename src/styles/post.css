@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap");
 @import "chunks/header.css";
 @import "chunks/main.css";
-@import "chunks/post-nav.css";
 @import "chunks/footer.css";
 
 * {
@@ -14,6 +13,7 @@
 
 body {
   background-color: rgb(241, 241, 241);
+  min-height: 100vh;
 }
 
 @media only screen and (min-width: 800px) {
@@ -23,7 +23,6 @@ body {
 
     grid-template-areas:
       "sidebar main"
-      "sidebar post-nav"
       "sidebar footer";
   }
 }

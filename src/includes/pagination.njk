@@ -1,4 +1,17 @@
     <nav>
-      <span>1</span>
-      <a href="#">&#129122;</a>
+      {% if pagination.href.previous %}
+        <a href="{{ pagination.href.previous }}">&#129120;</a>
+      {% else %}
+        <a href="#" class="disabled">&#129120;</a>
+      {% endif %}
+      {%- for pageEntry in pagination.pages %}
+        {% if page.url == pagination.hrefs[ loop.index0 ] %}
+          <span>Page {{ loop.index }}</span>
+        {% endif %}
+      {%- endfor %}
+      {% if pagination.href.next %}
+        <a href="{{ pagination.href.next }}">&#129122;</a>
+      {% else %}
+        <a href="#" class="disabled">&#129122;</a>
+      {% endif %}
     </nav>
