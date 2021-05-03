@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&family=Noto+Serif&display=swap");
+@import "chunks/fonts.css";
 @import "chunks/header.css";
 @import "chunks/main.css";
 @import "chunks/footer.css";

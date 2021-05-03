@@ -5,6 +5,8 @@ module.exports = (config) => {
   config.addPassthroughCopy("src/images");
   config.addPassthroughCopy("src/scripts");
   config.addPassthroughCopy("src/styles");
+  config.addPassthroughCopy("src/fonts");
+
   config.addPlugin(eleventyNavigationPlugin);
 
   config.addFilter("htmlmin", (value) => {
