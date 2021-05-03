@@ -1,10 +1,31 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
+const htmlmin = require("html-minifier");
 
 module.exports = (config) => {
   config.addPassthroughCopy("src/images");
   config.addPassthroughCopy("src/scripts");
   config.addPassthroughCopy("src/styles");
   config.addPlugin(eleventyNavigationPlugin);
+
+  config.addFilter("htmlmin", (value) => {
+    return htmlmin.minify(value, {
+      removeComments: true,
+      collapseWhitespace: true,
+    });
+  });
+
+  config.addTransform("htmlmin", (content, outputPath) => {
+    if (outputPath && outputPath.endsWith(".html")) {
+      const result = htmlmin.minify(content, {
+        removeComments: true,
+        collapseWhitespace: true,
+      });
+
+      return result;
+    }
+
+    return content;
+  });
 
   return {
     dir: {
