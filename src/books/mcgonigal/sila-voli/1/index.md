@@ -1,10 +1,11 @@
 ---
 title: "Синдром ложной надежды"
-date: 2019-06-27
+date: 2018-02-22
 layout: post.njk
 tags:
   - posts
   - silaVoli
+  - mcgonigal
 book: "Келли Макгонигал. Сила воли: Как развить и укрепить"
 ---
 
