@@ -1,64 +1,10 @@
 const del = require("del");
+const fs = require("fs");
+const replace = require("gulp-replace");
 const gulp = require("gulp");
 const cleancss = require("gulp-clean-css");
 
 // Styles
-
-// gulp.task("minify-css", () => {
-//   return gulp
-//     .src("src/styles/post.css")
-//     .pipe(cleancss({ level: 2 }))
-//     .pipe(gulp.dest("dist/styles"));
-// });
-
-// gulp.task("minify-css", () => {
-//   return gulp
-//     .src("src/styles/posts.css")
-//     .pipe(cleancss({ level: 2 }))
-//     .pipe(gulp.dest("dist/styles"));
-// });
-
-// gulp.task("minify-css", () => {
-//   return gulp
-//     .src("src/styles/chunks/fonts.css")
-//     .pipe(cleancss({ level: 2 }))
-//     .pipe(gulp.dest("dist/styles/chunks"));
-// });
-
-// gulp.task("minify-css", () => {
-//   return gulp
-//     .src("src/styles/chunks/footer.css")
-//     .pipe(cleancss({ level: 2 }))
-//     .pipe(gulp.dest("dist/styles/chunks"));
-// });
-
-// gulp.task("minify-css", () => {
-//   return gulp
-//     .src("src/styles/chunks/header.css")
-//     .pipe(cleancss({ level: 2 }))
-//     .pipe(gulp.dest("dist/styles/chunks"));
-// });
-
-// gulp.task("minify-css", () => {
-//   return gulp
-//     .src("src/styles/chunks/main.css")
-//     .pipe(cleancss({ level: 2 }))
-//     .pipe(gulp.dest("dist/styles/chunks"));
-// });
-
-// gulp.task("minify-css", () => {
-//   return gulp
-//     .src("src/styles/chunks/nav.css")
-//     .pipe(cleancss({ level: 2 }))
-//     .pipe(gulp.dest("dist/styles/chunks"));
-// });
-
-// gulp.task("minify-css", () => {
-//   return gulp
-//     .src("src/styles/chunks/post-nav.css")
-//     .pipe(cleancss({ level: 2 }))
-//     .pipe(gulp.dest("dist/styles/chunks"));
-// });
 
 gulp.task("minify-styles", () => {
   return gulp
@@ -67,13 +13,42 @@ gulp.task("minify-styles", () => {
     .pipe(gulp.dest("dist/styles"));
 });
 
-gulp.task("minify-chunks", () => {
+gulp.task("posts-styles:inline", () => {
   return gulp
-    .src("src/styles/chunks/*.css")
-    .pipe(cleancss({ compatibility: "ie8" }))
-    .pipe(gulp.dest("dist/styles/chunks"));
+    .src("dist/**/*.html")
+    .pipe(
+      replace(/<link rel="stylesheet" href="\/styles\/posts.css">/, () => {
+        const style = fs.readFileSync("dist/styles/posts.css", "utf8");
+        return "<style>" + style + "</style>";
+      })
+    )
+    .pipe(gulp.dest("dist"));
+});
+
+gulp.task("post-styles:inline", () => {
+  return gulp
+    .src("dist/**/*.html")
+    .pipe(
+      replace(/<link rel="stylesheet" href="\/styles\/post.css">/, () => {
+        const style = fs.readFileSync("dist/styles/post.css", "utf8");
+        return "<style>" + style + "</style>";
+      })
+    )
+    .pipe(gulp.dest("dist"));
+});
+
+gulp.task("clean", () => {
+  return del(["dist/styles/chunks", "dist/styles"]);
 });
 
 // Build
 
-gulp.task("build", gulp.series(["minify-styles", "minify-chunks"]));
+gulp.task(
+  "build",
+  gulp.series(
+    "minify-styles",
+    "posts-styles:inline",
+    "post-styles:inline",
+    "clean"
+  )
+);
