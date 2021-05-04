@@ -17,7 +17,7 @@ pagination:
         {{ post.templateContent | safe }}
         <footer>
         <img src="/images/calendar.svg" alt="date" />
-        <time>{{ post.data.date.toLocaleString('ru-RU', {year: "numeric",month: "2-digit",day: "numeric"}) }}</time>
+        <time>{{ post.data.date.toLocaleString() }}</time>
         <img src="/images/folder.svg" alt="category" />
         {% set navPages = collections.all | eleventyNavigation %}
         {%- for entry in navPages %}

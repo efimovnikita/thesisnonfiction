@@ -15,7 +15,7 @@ style: "post"
           {{ content | safe }}
           <footer>
             <img src="/images/calendar.svg" alt="date" />
-            <time>{{ date.toLocaleString('ru-RU', {year: "numeric",month: "2-digit",day: "numeric"}) }}</time>
+            <time>{{ date.toLocaleString() }}</time>
             <img src="/images/folder.svg" alt="category" />
             {% set navPages = collections.all | eleventyNavigation %}
             {%- for entry in navPages %}
