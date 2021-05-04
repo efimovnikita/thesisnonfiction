@@ -94,10 +94,6 @@ header button:active {
   background-color: skyblue;
 }
 
-header section img {
-  width: 84px;
-}
-
 header section small {
   display: none;
 }
@@ -166,6 +162,7 @@ header section small {
 
   header section img {
     width: 200px;
+    height: 200px;
   }
 
   header section section {
