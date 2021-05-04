@@ -1,8 +1,8 @@
     <nav>
       {% if pagination.href.previous %}
-        <a href="{{ pagination.href.previous }}">&#129104;</a>
+        <a href="{{ pagination.href.previous }}">🡐</a>
       {% else %}
-        <a href="#" class="disabled">&#129104;</a>
+        <a href="#" class="disabled">🡐</a>
       {% endif %}
       {%- for pageEntry in pagination.pages %}
         {% if page.url == pagination.hrefs[ loop.index0 ] %}
@@ -10,8 +10,8 @@
         {% endif %}
       {%- endfor %}
       {% if pagination.href.next %}
-        <a href="{{ pagination.href.next }}">&#129106;</a>
+        <a href="{{ pagination.href.next }}">🡒</a>
       {% else %}
-        <a href="#" class="disabled">&#129106;</a>
+        <a href="#" class="disabled">🡒</a>
       {% endif %}
     </nav>
