@@ -6,16 +6,24 @@
   "scripts": {
     "start": "eleventy --serve --quiet",
     "11ty": "eleventy",
-    "build": "rm -rf dist && npm run 11ty"
+    "pack": "gulp build",
+    "build": "rm -rf dist && npm run 11ty && npm run pack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@11ty/eleventy": "^0.12.1",
-    "@11ty/eleventy-navigation": "^0.2.0"
+    "@11ty/eleventy-navigation": "^0.2.0",
+    "clean-css-cli": "^5.3.0",
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-postcss": "^9.0.0",
+    "postcss": "^8.2.13"
   },
   "dependencies": {
-    "html-minifier": "^4.0.0"
+    "html-minifier": "^4.0.0",
+    "postcss-csso": "^5.0.1",
+    "postcss-import": "^14.0.1"
   }
 }
