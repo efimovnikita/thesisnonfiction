@@ -22,6 +22,12 @@ main section article p {
   padding-right: 7%;
 }
 
+main section article blockquote {
+  margin-left: 20px;
+  border-left: 3px solid grey;
+  font-style: italic;
+}
+
 main section article h2 {
   display: block;
   font-size: 26px;
