@@ -1,0 +1,31 @@
+---
+layout: posts.njk
+eleventyNavigation:
+  key: AboutWar
+  ulr: books-about-war
+  title: "Книги о войне"
+pagination:
+  data: collections.aboutWar
+  size: 10
+---
+
+<section>
+    <h2>Posts section</h2>
+    {%- for post in pagination.items -%}
+    <article>
+        <h2><a href="{{post.url}}">{{ post.data.title }}</a></h2>
+        {{ post.templateContent | safe }}
+        <footer>
+        <img src="/images/calendar.svg" alt="date" />
+        <time>{{ post.data.date.toLocaleString() }}</time>
+        <img src="/images/folder.svg" alt="category" />
+        {% set navPages = collections.all | eleventyNavigation %}
+        {%- for entry in navPages %}
+        {% if entry.title == post.data.book %}
+            <aside><a href="{{ entry.url }}">{{ post.data.book }}</a></aside>
+        {% endif %}
+        {%- endfor %}
+        </footer>
+    </article>
+    {%- endfor -%}
+</section>
