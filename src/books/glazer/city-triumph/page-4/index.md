@@ -2,6 +2,7 @@
 title: "Репрессии – эффективный инструмент"
 date: 2016-04-26
 layout: post.njk
+category: urbanism
 tags:
   - posts
   - cityTriumph

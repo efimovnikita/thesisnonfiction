@@ -2,6 +2,7 @@
 title: "Чёрно-белое восприятие"
 date: 2017-05-20
 layout: post.njk
+category: phisiology
 tags:
   - posts
   - visionRevolution

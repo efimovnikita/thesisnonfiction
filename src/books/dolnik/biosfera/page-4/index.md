@@ -2,6 +2,7 @@
 title: "Мозг и причинно-следственные связи"
 date: 2016-04-19
 layout: post.njk
+category: ethology
 tags:
   - posts
   - biosfera

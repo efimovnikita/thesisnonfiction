@@ -98,6 +98,33 @@ header section small {
   display: none;
 }
 
+header nav section {
+  margin-top: 0;
+  margin-bottom: 20px;
+  margin-left: 0;
+  margin-right: 0;
+  padding-right: 0;
+  padding-top: 0;
+  padding-left: 10px;
+  padding-bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  gap: 10px;
+  align-items: flex-start;
+  border: 0;
+}
+
+header nav section a {
+  background-color: white;
+  color: #333;
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  text-decoration: underline;
+}
+
 @media only screen and (min-width: 400px) {
   header {
     padding: 0;

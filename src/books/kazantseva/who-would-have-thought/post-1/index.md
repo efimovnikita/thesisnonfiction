@@ -2,6 +2,7 @@
 title: "Проблема условности классификаций"
 date: 2016-05-16
 layout: post.njk
+category: neurophysiology
 tags:
   - posts
   - whoWouldHaveThought

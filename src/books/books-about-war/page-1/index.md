@@ -2,6 +2,7 @@
 title: "Война всегда одинакова"
 date: 2017-05-12
 layout: post.njk
+category: war
 tags:
   - posts
   - aboutWar

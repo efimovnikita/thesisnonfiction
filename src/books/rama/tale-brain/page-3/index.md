@@ -2,6 +2,7 @@
 title: "Психический фазовый переход"
 date: 2016-04-14
 layout: post.njk
+category: neurophysiology
 tags:
   - posts
   - taleBrain

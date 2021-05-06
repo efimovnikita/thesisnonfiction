@@ -2,6 +2,7 @@
 title: "Различия в характерах собак волчьих и шакальных кровей"
 date: 2016-04-18
 layout: post.njk
+category: ethology
 tags:
   - posts
   - solomonRing

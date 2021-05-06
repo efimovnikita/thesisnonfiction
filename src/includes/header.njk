@@ -16,6 +16,12 @@
                 <li><a href="{{ entry.url }}">{{ entry.title }}</a></li>
             {%- endfor %}
         </ul>
+        <h3>ТЕГИ</h3>
+        <section>
+            {%- for tag, posts in collections.categories %}
+                <a href="/categories/{{tag}}">{{ tag }}</a>
+            {%- endfor %}
+        </section>
         <input type="text" name="search" placeholder="Search ..." />
     </nav>
 </header>

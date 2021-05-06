@@ -2,6 +2,7 @@
 title: "Фундаментальный закон загруженности дорог"
 date: 2016-04-28
 layout: post.njk
+category: urbanism
 tags:
   - posts
   - cityTriumph

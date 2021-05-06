@@ -2,6 +2,7 @@
 title: "Молекулярный механизм адаптации глаза к яркому свету"
 date: 2018-01-05
 layout: post.njk
+category: mollecular-biology
 tags:
   - posts
   - molBiol

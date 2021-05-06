@@ -2,6 +2,7 @@
 title: "Эпигенетические изменения выключают гены подавления опухоли"
 date: 2018-01-09
 layout: post.njk
+category: mollecular-biology
 tags:
   - posts
   - molBiol
