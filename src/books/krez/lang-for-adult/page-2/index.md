@@ -2,6 +2,7 @@
 title: "Эффективная стратегия заучивания"
 date: 2017-08-02
 layout: post.njk
+category: linguistics
 tags:
   - posts
   - langForAdult

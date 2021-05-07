@@ -2,6 +2,7 @@
 title: "Иерархическая пирамида и подонки"
 date: 2016-04-17
 layout: post.njk
+category: ethology
 tags:
   - posts
   - biosfera

@@ -15,10 +15,16 @@ pagination:
         <img src="/images/folder.svg" alt="category" />
         {% set navPages = collections.all | eleventyNavigation %}
         {%- for entry in navPages %}
-        {% if entry.title == post.data.book %}
-            <aside><a href="{{ entry.url }}">{{ post.data.book }}</a></aside>
-        {% endif %}
+            {% if entry.title == post.data.book %}
+                <aside><a href="{{ entry.url }}">{{ post.data.book }}</a></aside>
+            {% endif %}
         {%- endfor %}
+        {% if post.data.category %}
+            <img src="/images/label.svg" alt="label" />
+            <aside>
+                <a href="/categories/{{post.data.category}}">{{post.data.category}}</a>
+            </aside>
+        {% endif %}
         </footer>
     </article>
 {%- endfor -%}

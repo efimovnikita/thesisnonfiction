@@ -2,6 +2,7 @@
 title: "Сдерживающие агрессию механизмы"
 date: 2016-04-15
 layout: post.njk
+category: ethology
 tags:
   - posts
   - solomonRing

@@ -2,6 +2,7 @@
 title: "Взгляд на мир с точки зрения живого существа"
 date: 2017-08-05
 layout: post.njk
+category: physics
 tags:
   - posts
   - naukaNeNauka

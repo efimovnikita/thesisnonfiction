@@ -2,6 +2,7 @@
 title: "Эмпатия и индивидуальность"
 date: 2016-04-12
 layout: post.njk
+category: neurophysiology
 tags:
   - posts
   - taleBrain

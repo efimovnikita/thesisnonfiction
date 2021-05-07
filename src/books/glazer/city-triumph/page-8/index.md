@@ -2,6 +2,7 @@
 title: "Безопасные улицы – необходимый элемент выживания города"
 date: 2016-04-24
 layout: post.njk
+category: urbanism
 tags:
   - posts
   - cityTriumph

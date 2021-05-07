@@ -2,6 +2,7 @@
 title: "Кофеин – индуктор чувства тревоги"
 date: 2016-06-02
 layout: post.njk
+category: psychology
 tags:
   - posts
   - stressNature

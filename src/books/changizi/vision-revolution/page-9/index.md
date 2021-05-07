@@ -2,6 +2,7 @@
 title: "Бинокулярное зрение не так уж и важно"
 date: 2017-05-18
 layout: post.njk
+category: phisiology
 tags:
   - posts
   - visionRevolution

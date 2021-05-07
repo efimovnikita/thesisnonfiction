@@ -2,6 +2,7 @@
 title: "Механизм действия холерного токсина"
 date: 2017-05-16
 layout: post.njk
+category: mollecular-biology
 tags:
   - posts
   - molBiol

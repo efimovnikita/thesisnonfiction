@@ -2,6 +2,7 @@
 title: "Как далеко мы способны зайти?"
 date: 2017-07-12
 layout: post.njk
+category: sociology
 tags:
   - posts
   - saganMilliardy

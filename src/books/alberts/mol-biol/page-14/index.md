@@ -2,6 +2,7 @@
 title: "Контроль качества в ЭПР и муковисцидоз"
 date: 2017-05-14
 layout: post.njk
+category: mollecular-biology
 tags:
   - posts
   - molBiol

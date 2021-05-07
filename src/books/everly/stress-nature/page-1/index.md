@@ -2,6 +2,7 @@
 title: "Физические тренировки – способ активного отреагирования стресса"
 date: 2016-06-08
 layout: post.njk
+category: psychology
 tags:
   - posts
   - stressNature

@@ -2,6 +2,7 @@
 title: "Национальная эрекция"
 date: 2017-05-10
 layout: post.njk
+category: journalism
 tags:
   - posts
   - oskorblenie

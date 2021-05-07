@@ -2,6 +2,7 @@
 title: "Рост высотности зданий и доступность жилого пространства"
 date: 2016-04-23
 layout: post.njk
+category: urbanism
 tags:
   - posts
   - cityTriumph

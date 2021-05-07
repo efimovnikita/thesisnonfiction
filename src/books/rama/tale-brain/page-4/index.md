@@ -2,6 +2,7 @@
 title: "Взаимодействие мозговых зон и пластичность"
 date: 2016-04-13
 layout: post.njk
+category: neurophysiology
 tags:
   - posts
   - taleBrain

@@ -2,6 +2,7 @@
 title: "Появление новых синапсов еще не является обучением"
 date: 2016-05-21
 layout: post.njk
+category: neurophysiology
 tags:
   - posts
   - connectome

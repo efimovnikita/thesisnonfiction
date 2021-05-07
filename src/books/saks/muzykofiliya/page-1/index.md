@@ -2,6 +2,7 @@
 title: "Потеря представительства в схеме тела"
 date: 2018-01-23
 layout: post.njk
+category: neurophysiology
 tags:
   - posts
   - muzykofiliya

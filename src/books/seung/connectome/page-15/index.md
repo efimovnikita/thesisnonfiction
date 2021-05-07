@@ -2,6 +2,7 @@
 title: "Концепция двойного следа"
 date: 2016-05-18
 layout: post.njk
+category: neurophysiology
 tags:
   - posts
   - connectome

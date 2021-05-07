@@ -2,6 +2,7 @@
 title: "Взаимозависимость между стабильностью и пластичностью"
 date: 2016-05-23
 layout: post.njk
+category: neurophysiology
 tags:
   - posts
   - connectome

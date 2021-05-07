@@ -2,6 +2,7 @@
 title: "Густонаселенные города – магнит для молодых и одиноких"
 date: 2016-04-24
 layout: post.njk
+category: urbanism
 tags:
   - posts
   - cityTriumph

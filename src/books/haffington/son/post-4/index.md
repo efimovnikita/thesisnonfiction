@@ -2,6 +2,7 @@
 title: "Лучшее время дня занятий спортом"
 date: 2017-07-20
 layout: post.njk
+category: somnology
 tags:
   - posts
   - sleepRevolution

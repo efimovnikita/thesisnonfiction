@@ -2,6 +2,7 @@
 title: "Взгляд в будущее и зрительные иллюзии"
 date: 2017-05-19
 layout: post.njk
+category: phisiology
 tags:
   - posts
   - visionRevolution

@@ -2,6 +2,7 @@
 title: "Выход человека из под действия отбора"
 date: 2016-04-17
 layout: post.njk
+category: ethology
 tags:
   - posts
   - biosfera

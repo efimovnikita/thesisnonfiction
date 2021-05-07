@@ -2,6 +2,7 @@
 title: "Преимущества городов"
 date: 2016-04-21
 layout: post.njk
+category: urbanism
 tags:
   - posts
   - cityTriumph

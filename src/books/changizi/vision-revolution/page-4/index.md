@@ -2,6 +2,7 @@
 title: "Для того, чтобы видеть настоящее, необходимо предвидеть будущее!"
 date: 2017-05-19
 layout: post.njk
+category: phisiology
 tags:
   - posts
   - visionRevolution

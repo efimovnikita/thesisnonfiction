@@ -2,6 +2,7 @@
 title: "Идея уничтожающая знания"
 date: 2016-04-25
 layout: post.njk
+category: urbanism
 tags:
   - posts
   - cityTriumph

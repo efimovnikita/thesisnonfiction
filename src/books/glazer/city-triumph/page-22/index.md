@@ -2,6 +2,7 @@
 title: "Лучший способ превратить бедную страну в богатую"
 date: 2016-04-21
 layout: post.njk
+category: urbanism
 tags:
   - posts
   - cityTriumph

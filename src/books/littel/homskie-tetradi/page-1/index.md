@@ -2,6 +2,7 @@
 title: "Чувство нереальности и абстрактная опасность"
 date: 2017-07-25
 layout: post.njk
+category: war
 tags:
   - posts
   - homskie-tetradi

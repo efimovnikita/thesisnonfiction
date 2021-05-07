@@ -2,6 +2,7 @@
 title: "Недостаточная изначальная моральность человека"
 date: 2016-04-17
 layout: post.njk
+category: ethology
 tags:
   - posts
   - biosfera

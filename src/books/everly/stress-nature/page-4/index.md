@@ -2,6 +2,7 @@
 title: "Температура кожи – индикатор активности симпатической нервной системы"
 date: 2016-06-05
 layout: post.njk
+category: psychology
 tags:
   - posts
   - stressNature

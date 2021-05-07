@@ -2,6 +2,7 @@
 title: "Простая работа"
 date: 2017-07-14
 layout: post.njk
+category: war
 tags:
   - posts
   - warSindrome

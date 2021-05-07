@@ -2,6 +2,7 @@
 title: "Перенастройка барорецепторов аорты"
 date: 2016-05-29
 layout: post.njk
+category: psychology
 tags:
   - posts
   - stressNature

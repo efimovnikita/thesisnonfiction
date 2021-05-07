@@ -2,6 +2,7 @@
 title: "Патриотизм и национализм в спортивных состязаниях"
 date: 2017-07-06
 layout: post.njk
+category: sociology
 tags:
   - posts
   - saganMilliardy

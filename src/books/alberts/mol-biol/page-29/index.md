@@ -2,6 +2,7 @@
 title: "Опасность загара"
 date: 2017-05-10
 layout: post.njk
+category: mollecular-biology
 tags:
   - posts
   - molBiol

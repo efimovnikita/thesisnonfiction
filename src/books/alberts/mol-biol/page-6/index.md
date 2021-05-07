@@ -2,6 +2,7 @@
 title: "Гиалуроновая кислота в косметологии"
 date: 2018-01-03
 layout: post.njk
+category: mollecular-biology
 tags:
   - posts
   - molBiol

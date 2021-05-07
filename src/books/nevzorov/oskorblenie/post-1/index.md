@@ -2,6 +2,7 @@
 title: "Ученая степень"
 date: 2019-06-27
 layout: post.njk
+category: journalism
 tags:
   - posts
   - oskorblenie

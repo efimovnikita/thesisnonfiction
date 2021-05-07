@@ -2,6 +2,7 @@
 title: "Долг и сфера ответственности правительств"
 date: 2017-08-07
 layout: post.njk
+category: physics
 tags:
   - posts
   - naukaNeNauka

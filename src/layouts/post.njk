@@ -23,6 +23,12 @@ style: "post"
              <aside><a href="{{ entry.url }}">{{ book }}</a></aside>
             {% endif %}
             {%- endfor %}
+            {% if category %}
+              <img src="/images/label.svg" alt="label" />
+              <aside>
+                  <a href="/categories/{{category}}">{{category}}</a>
+              </aside>
+            {% endif %}
           </footer>
         </article>
       </section>

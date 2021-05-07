@@ -2,6 +2,7 @@
 title: "Любите природу? Тогда держитесь от нее подальше!"
 date: 2016-04-22
 layout: post.njk
+category: urbanism
 tags:
   - posts
   - cityTriumph

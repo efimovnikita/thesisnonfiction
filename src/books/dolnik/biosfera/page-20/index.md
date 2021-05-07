@@ -2,6 +2,7 @@
 title: "Самосборка людей в иерархические пирамиды"
 date: 2016-04-15
 layout: post.njk
+category: ethology
 tags:
   - posts
   - biosfera

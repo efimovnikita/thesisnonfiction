@@ -2,6 +2,7 @@
 title: "Полное понимание фундаментальных процессов жизни"
 date: 2017-07-12
 layout: post.njk
+category: sociology
 tags:
   - posts
   - saganMilliardy

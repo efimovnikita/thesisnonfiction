@@ -2,6 +2,7 @@
 title: "Огромная польза от разговора с ребенком"
 date: 2017-08-10
 layout: post.njk
+category: pediatrics
 tags:
   - posts
   - ibukaPozdno

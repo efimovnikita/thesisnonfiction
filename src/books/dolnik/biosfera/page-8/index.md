@@ -2,6 +2,7 @@
 title: "Разница между интересами самцов и самок"
 date: 2016-04-19
 layout: post.njk
+category: ethology
 tags:
   - posts
   - biosfera

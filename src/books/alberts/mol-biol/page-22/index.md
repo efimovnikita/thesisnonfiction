@@ -2,6 +2,7 @@
 title: "Механизм действия успокаивающих препаратов"
 date: 2017-05-12
 layout: post.njk
+category: mollecular-biology
 tags:
   - posts
   - molBiol

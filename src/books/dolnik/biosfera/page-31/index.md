@@ -2,6 +2,7 @@
 title: "Контроль рождаемости"
 date: 2016-04-14
 layout: post.njk
+category: ethology
 tags:
   - posts
   - biosfera

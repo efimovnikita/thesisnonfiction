@@ -2,6 +2,7 @@
 title: "Связь между демократией и образованием"
 date: 2016-04-21
 layout: post.njk
+category: urbanism
 tags:
   - posts
   - cityTriumph

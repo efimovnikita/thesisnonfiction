@@ -2,6 +2,7 @@
 title: "Наиболее сложные для автоматизации функции"
 date: 2017-07-04
 layout: post.njk
+category: robotics
 tags:
   - posts
   - roboticus

@@ -22,6 +22,12 @@ permalink: /categories/{{ category }}/
             <aside><a href="{{ entry.url }}">{{ post.data.book }}</a></aside>
         {% endif %}
         {%- endfor %}
+        {% if post.data.category %}
+            <img src="/images/label.svg" alt="label" />
+            <aside>
+                <a href="/categories/{{post.data.category}}">{{post.data.category}}</a>
+            </aside>
+        {% endif %}
         </footer>
     </article>
     {% endfor %}

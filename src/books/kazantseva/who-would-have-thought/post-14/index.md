@@ -2,6 +2,7 @@
 title: "Курение – стресс"
 book: "Ася Казанцева. Кто бы мог подумать!"
 layout: post.njk
+category: neurophysiology
 tags:
   - posts
   - whoWouldHaveThought

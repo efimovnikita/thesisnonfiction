@@ -2,6 +2,7 @@
 title: "Черновик межнейронных связей"
 date: 2016-05-23
 layout: post.njk
+category: neurophysiology
 tags:
   - posts
   - connectome

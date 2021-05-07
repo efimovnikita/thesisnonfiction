@@ -2,6 +2,7 @@
 title: "О вреде заучивания"
 date: 2017-08-01
 layout: post.njk
+category: linguistics
 tags:
   - posts
   - langForAdult

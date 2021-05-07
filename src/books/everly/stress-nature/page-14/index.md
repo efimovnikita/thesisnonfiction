@@ -2,6 +2,7 @@
 title: "Иррациональные убеждения по отношению к событиям"
 date: 2016-05-30
 layout: post.njk
+category: psychology
 tags:
   - posts
   - stressNature

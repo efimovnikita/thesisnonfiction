@@ -2,6 +2,7 @@
 title: "Польза физических упражнений"
 date: 2016-06-06
 layout: post.njk
+category: psychology
 tags:
   - posts
   - stressNature

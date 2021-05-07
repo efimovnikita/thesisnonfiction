@@ -2,6 +2,7 @@
 title: "Первый поцелуй и нейронные ансамбли"
 date: 2016-05-17
 layout: post.njk
+category: neurophysiology
 tags:
   - posts
   - connectome

@@ -2,6 +2,7 @@
 title: "Критика ослабляет самоконтроль"
 date: 2018-02-22
 layout: post.njk
+category: psychology
 tags:
   - posts
   - silaVoli

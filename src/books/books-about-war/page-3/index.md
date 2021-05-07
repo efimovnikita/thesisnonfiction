@@ -2,6 +2,7 @@
 title: "Война позволяет перезагрузить жизнь"
 date: 2017-05-11
 layout: post.njk
+category: war
 tags:
   - posts
   - aboutWar

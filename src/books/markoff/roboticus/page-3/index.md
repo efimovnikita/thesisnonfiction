@@ -2,6 +2,7 @@
 title: "Оптимизм пятидесятых по поводу искусственного интеллекта"
 date: 2017-07-01
 layout: post.njk
+category: robotics
 tags:
   - posts
   - roboticus

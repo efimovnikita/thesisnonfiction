@@ -2,6 +2,7 @@
 title: "Мы слишком много от себя требуем"
 date: 2017-07-12
 layout: post.njk
+category: sociology
 tags:
   - posts
   - saganMilliardy

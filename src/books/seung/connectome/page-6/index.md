@@ -2,6 +2,7 @@
 title: "Атом в бесконечности"
 date: 2016-05-24
 layout: post.njk
+category: neurophysiology
 tags:
   - posts
   - connectome

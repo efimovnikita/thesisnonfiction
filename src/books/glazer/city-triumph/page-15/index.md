@@ -2,6 +2,7 @@
 title: "Баланс между высотной застройкой и сохранением исторического облика"
 date: 2016-04-23
 layout: post.njk
+category: urbanism
 tags:
   - posts
   - cityTriumph

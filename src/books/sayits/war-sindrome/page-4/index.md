@@ -2,6 +2,7 @@
 title: "Огласка военных эпизодов"
 date: 2017-07-13
 layout: post.njk
+category: war
 tags:
   - posts
   - warSindrome

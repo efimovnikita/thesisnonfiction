@@ -2,6 +2,7 @@
 title: "Преступность и неотвратимость наказания"
 date: 2016-04-24
 layout: post.njk
+category: urbanism
 tags:
   - posts
   - cityTriumph

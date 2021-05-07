@@ -2,6 +2,7 @@
 title: "Причинно-следственные связи и выученная беспомощность"
 book: "Ася Казанцева. Кто бы мог подумать!"
 layout: post.njk
+category: neurophysiology
 tags:
   - posts
   - whoWouldHaveThought

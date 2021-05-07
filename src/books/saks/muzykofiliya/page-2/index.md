@@ -2,6 +2,7 @@
 title: "Мелодия – неотъемлемая часть целого"
 date: 2018-01-22
 layout: post.njk
+category: neurophysiology
 tags:
   - posts
   - muzykofiliya

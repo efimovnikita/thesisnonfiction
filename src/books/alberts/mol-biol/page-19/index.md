@@ -2,6 +2,7 @@
 title: "Механизм действия цианида"
 date: 2017-05-13
 layout: post.njk
+category: mollecular-biology
 tags:
   - posts
   - molBiol

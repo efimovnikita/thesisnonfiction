@@ -2,6 +2,7 @@
 title: "Причины высокого или низкого уровня рождаемости"
 date: 2016-04-14
 layout: post.njk
+category: ethology
 tags:
   - posts
   - biosfera
