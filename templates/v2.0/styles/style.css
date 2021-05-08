@@ -1,0 +1,17 @@
+@import "common.blocks/header/header.css";
+@import "common.blocks/title/title.css";
+@import "common.blocks/menu/menu.css";
+@import "common.blocks/tags/tags.css";
+@import "common.blocks/search/search.css";
+@import "common.blocks/main/main.css";
+@import "common.blocks/post/post.css";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Noto Serif", serif;
+  color: #333;
+  --menu-and-tags-padding: 20px 10px;
+  --blocks-padding: 15px 25px;
+}

@@ -1,0 +1,7 @@
+@import "_invisible/main__title_invisible.css";
+
+.main__title {
+  font-family: "Noto Sans", sans-serif;
+  border-left: 5px solid gray;
+  padding: var(--blocks-padding);
+}

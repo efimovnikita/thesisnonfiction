@@ -1,0 +1,4 @@
+.post__label {
+  display: flex;
+  column-gap: 5px;
+}

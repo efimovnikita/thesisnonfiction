@@ -1,0 +1,7 @@
+@import "menu__item/menu__item.css";
+@import "menu__list/menu__list.css";
+@import "menu__link/menu__link.css";
+
+.menu {
+  padding: var(--blocks-padding);
+}

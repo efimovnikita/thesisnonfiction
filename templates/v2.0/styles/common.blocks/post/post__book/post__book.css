@@ -1,0 +1,4 @@
+.post__book {
+  display: flex;
+  column-gap: 5px;
+}

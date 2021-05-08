@@ -1,0 +1,6 @@
+.menu__list {
+  padding: var(--menu-and-tags-padding);
+  list-style-type: none;
+  display: grid;
+  gap: 15px;
+}

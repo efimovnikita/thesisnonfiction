@@ -1,0 +1,6 @@
+@import "tags__container/tags__container.css";
+@import "tags__link/tags__link.css";
+
+.tags {
+  padding: var(--blocks-padding);
+}

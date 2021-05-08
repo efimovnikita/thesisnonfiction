@@ -1,0 +1,10 @@
+.post__footer {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 15px;
+  row-gap: 5px;
+  background-color: #f7f7f7;
+  font-size: 12px;
+  padding: 15px 28px;
+  border-bottom: 1px solid lightgray;
+}

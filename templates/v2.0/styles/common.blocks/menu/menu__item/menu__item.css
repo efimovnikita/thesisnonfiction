@@ -1,0 +1,8 @@
+.menu__item {
+  border-bottom: 1px solid lightgray;
+  padding: 10px 0;
+}
+
+.menu__item:last-child {
+  border-bottom: 0;
+}

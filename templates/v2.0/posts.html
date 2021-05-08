@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="description" content="Тезисы из научно-популярных книг" />
+    <link
+      rel="preload"
+      href="fonts/NotoSans-Regular.woff2"
+      crossorigin
+      as="font"
+      type="font/woff2"
+    />
+    <link
+      rel="preload"
+      href="fonts/NotoSerif-Regular.woff2"
+      crossorigin
+      as="font"
+      type="font/woff2"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="images/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="images/favicon-16x16.png"
+    />
+    <link rel="stylesheet" href="styles/style.css" />
+    <title>Тезисы из научно-популярных книг</title>
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo-container">
+        <a class="header__logo" href="/"
+          ><img src="images/logo.jpg" width="84" height="84" alt="Logo"
+        /></a>
+        <h2 class="header__title">Тезисы из научно-популярных книг</h2>
+        <small class="header__epigraph header__epigraph_invisible"
+          >Примат Сути над видимостью…</small
+        >
+      </div>
+      <button class="header__button header__button_center" title="Меню">
+        ☰
+      </button>
+    </header>
+    <nav class="menu">
+      <h3 class="title">Прочитанные книги</h3>
+      <ul class="menu__list">
+        <li class="menu__item">
+          <a class="menu__link" href="/books/alberts/mol-biol/"
+            >Брюс Альбертс. Основы молекулярной биологии клетки</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/books-about-war/">Книги о войне</a>
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/changizi/vision-revolution/"
+            >Марк Чангизи. Революция в зрении</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/dolnik/biosfera/"
+            >Виктор Дольник. Непослушное дитя биосферы</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/everly/stress-nature/"
+            >Эверли. Розенфельд. Стресс. Природа и лечение</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/feinman/nauka-ne-nauka/"
+            >Ричард Фейнман. Наука, не-наука и все-все-все</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/glazer/city-triumph/"
+            >Эдвард Глейзер. Триумф города</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/haffington/son/"
+            >Арианна Хаффингтон. Революция сна</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/ibuka/pozdno/"
+            >Масару Ибука. После трёх уже поздно</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/kazantseva/who-would-have-thought/"
+            >Ася Казанцева. Кто бы мог подумать!</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/krez/lang-for-adult/"
+            >Крез. Иностранный для взрослых</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/lorenz/king-solomon-ring/"
+            >Конрад Лоренц. Кольцо царя Соломона</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/markoff/roboticus/"
+            >Джон Маркофф. Homo Roboticus? Люди и машины в поисках
+            взаимопонимания</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/mcgonigal/sila-voli/"
+            >Келли Макгонигал. Сила воли: Как развить и укрепить</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/nevzorov/oskorblenie/"
+            >Александр Невзоров. Искусство оскорблять</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/rama/tale-brain/"
+            >Вилейанур Рамачандран. Мозг рассказывает. Что делает нас людьми</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/sagan/milliardy/"
+            >Карл Саган. Миллиарды и миллиарды</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/saks/muzykofiliya/"
+            >Оливер Сакс. Музыкофилия</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/sayits/war-sindrome/"
+            >Кевин Сайтс. Синдром войны</a
+          >
+        </li>
+        <li class="menu__item">
+          <a class="menu__link" href="/books/seung/connectome/"
+            >Себастьян Сеунг. Коннектом. Как мозг делает нас тем, что мы есть</a
+          >
+        </li>
+      </ul>
+    </nav>
+    <nav class="tags">
+      <h3 class="title">ТЕГИ</h3>
+      <div class="tags__container">
+        <a class="tags__link" href="/categories/ethology">ethology</a>
+        <a class="tags__link" href="/categories/neurophysiology"
+          >neurophysiology</a
+        >
+        <a class="tags__link" href="/categories/urbanism">urbanism</a>
+        <a class="tags__link" href="/categories/psychology">psychology</a>
+        <a class="tags__link" href="/categories/mollecular-biology"
+          >mollecular-biology</a
+        >
+        <a class="tags__link" href="/categories/journalism">journalism</a>
+        <a class="tags__link" href="/categories/war">war</a>
+        <a class="tags__link" href="/categories/phisiology">phisiology</a>
+        <a class="tags__link" href="/categories/robotics">robotics</a>
+        <a class="tags__link" href="/categories/sociology">sociology</a>
+        <a class="tags__link" href="/categories/somnology">somnology</a>
+        <a class="tags__link" href="/categories/linguistics">linguistics</a>
+        <a class="tags__link" href="/categories/physics">physics</a>
+        <a class="tags__link" href="/categories/pediatrics">pediatrics</a>
+      </div>
+    </nav>
+    <form class="search">
+      <input
+        class="search__input"
+        type="text"
+        name="search"
+        placeholder="Search ..."
+      />
+    </form>
+    <main class="main">
+      <h2 class="main__title main__title_invisible">Цитаты</h2>
+      <article class="post">
+        <h2 class="post__title">
+          <a class="post__link" href="/books/dolnik/biosfera/page-33/"
+            >Речь ребенка и импринтинг родного языка</a
+          >
+        </h2>
+        <p class="post__paragraph">
+          Новорожденный слушает поток окружающей его речи. А программа прогоняет
+          этот поток через аналитические структуры, обрабатывает, сортирует,
+          разносит по ячейкам. Голосовой аппарат в это время занят своим: он
+          упражняется в произнесении врожденных наборов звуков (слогов), не
+          имеющих отношения к слушаемой речи. Ребенок может произносить слоги и
+          звуки, отсутствующие в родном языке. Конкретный язык использует только
+          часть этого набора, причем разные языки по звуковому составу совпадают
+          лишь отчасти. За один-два первых года жизни мозг усваивает принцип
+          построения речи в той среде, где находится ребенок, и запоминает
+          минимально необходимый набор слов. Программы импринтинга так
+          совершенны, что у ребенка, оказавшегося в двуязычной среде, они
+          научаются отделять один язык от другого и запечатлевают оба.
+        </p>
+        <footer class="post__footer">
+          <div class="post__date">
+            <img
+              class="post__footer-img"
+              src="images/calendar.svg"
+              alt="date"
+            />
+            <time>4/12/2016, 12:00:00 AM</time>
+          </div>
+          <div class="post__book">
+            <img class="post__footer-img" src="images/folder.svg" alt="book" />
+            <a class="post__link" href="/books/dolnik/biosfera/"
+              >Виктор Дольник. Непослушное дитя биосферы</a
+            >
+          </div>
+          <div class="post__label">
+            <img class="post__footer-img" src="images/label.svg" alt="label" />
+            <a class="post__link" href="/categories/ethology">ethology</a>
+          </div>
+        </footer>
+      </article>
+      <article class="post">
+        <h2 class="post__title">
+          <a class="post__link" href="/books/dolnik/biosfera/page-33/"
+            >Мышление ребенка</a
+          >
+        </h2>
+        <p class="post__paragraph">
+          Детскому мозгу запрещено отличать причину от следствия, ему предписано
+          поначалу только замечать связи и запоминать их как одно целое (ветер
+          дует и деревья качаются, надели пальто и на улице холодно). Так
+          безопаснее для тебя. Если же ты примешь следствие за причину, может
+          быть очень плохо. Например, замеченную комбинацию длинная красная
+          ягода и болит живот лучше на разлагать на причину и следствие. Одно
+          дело, если у тебя болел живот, ты съел ягоду и боль прошла, и совсем
+          другое, если живот у тебя заболел потому, что ты съел ягоду. Когда
+          наступает период обучения взрослой логике, ваш ребенок все время
+          спрашивает, причем очень настойчиво: «почему?». Часть его вопросов
+          умиляет и восхищает вас своей глубиной и взрослостью. Вы рассказываете
+          о них своим родным и друзьям. А часть — своей нелепостью, упрямо
+          повторяемой. Скажем, ребенок упорно, изо дня в день твердит вам, что
+          деревья раскачивают ветер или что поезд стоит, а все вокруг идет. На
+          самом деле он давно понял, что, на ваш взгляд, тут и проблемы нет, и
+          так все ясно. Но для его логической машины, доставшейся от предков,
+          причина и следствие здесь совсем не очевидны, противоположная связь
+          выглядит столь же возможной.
+        </p>
+        <footer class="post__footer">
+          <div class="post__date">
+            <img
+              class="post__footer-img"
+              src="images/calendar.svg"
+              alt="date"
+            />
+            <time>4/12/2016, 12:00:00 AM</time>
+          </div>
+          <div class="post__book">
+            <img class="post__footer-img" src="images/folder.svg" alt="book" />
+            <a class="post__link" href="/books/dolnik/biosfera/"
+              >Виктор Дольник. Непослушное дитя биосферы</a
+            >
+          </div>
+          <div class="post__label">
+            <img class="post__footer-img" src="images/label.svg" alt="label" />
+            <a class="post__link" href="/categories/ethology">ethology</a>
+          </div>
+        </footer>
+      </article>
+      <article class="post">
+        <h2 class="post__title">
+          <a class="post__link" href="/books/dolnik/biosfera/page-33/"
+            >Консерватизм и причинно-следственная связь</a
+          >
+        </h2>
+        <p class="post__paragraph">
+          Рациональная причина консерватизма животных ясна: слабому или
+          неопытному интеллекту лучше искать в событиях не причинно-следственные
+          связи, а связки, совпадения и воспринимать причинно-следственную связь
+          как двухстороннюю, обратимую. Такая инстинктивная логика приводит и
+          животных, и человека к выработке примет, табу, ритуалов. Среди них
+          “правильные” перемешиваются с ложными и ошибочными.
+        </p>
+        <p class="post__paragraph">
+          Религиозное чувство возвращает нас в этот мир предков и детства, где
+          безусловно и неоспоримо истинно все, во что веришь.
+        </p>
+        <footer class="post__footer">
+          <div class="post__date">
+            <img
+              class="post__footer-img"
+              src="images/calendar.svg"
+              alt="date"
+            />
+            <time>4/12/2016, 12:00:00 AM</time>
+          </div>
+          <div class="post__book">
+            <img class="post__footer-img" src="images/folder.svg" alt="book" />
+            <a class="post__link" href="/books/dolnik/biosfera/"
+              >Виктор Дольник. Непослушное дитя биосферы</a
+            >
+          </div>
+          <div class="post__label">
+            <img class="post__footer-img" src="images/label.svg" alt="label" />
+            <a class="post__link" href="/categories/ethology">ethology</a>
+          </div>
+        </footer>
+      </article>
+    </main>
+    <nav>
+      <a href="#">prev</a>
+      <span>Page 1</span>
+      <a href="#">next</a>
+    </nav>
+    <footer><small>Proudly powered by Maskedball</small></footer>
+  </body>
+</html>

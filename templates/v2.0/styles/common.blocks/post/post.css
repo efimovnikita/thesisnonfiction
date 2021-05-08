@@ -1,0 +1,12 @@
+@import "post__book/post__book.css";
+@import "post__date/post__date.css";
+@import "post__footer/post__footer.css";
+@import "post__label/post__label.css";
+@import "post__link/post__link.css";
+@import "post__paragraph/post__paragraph.css";
+@import "post__title/post__title.css";
+@import "post__footer-img/post__footer-img.css";
+
+.post {
+  padding: 10px 0;
+}

@@ -1,0 +1,7 @@
+@import "search__input/search__input.css";
+
+.search {
+  padding: var(--blocks-padding);
+  display: grid;
+  border-bottom: 1px solid lightgray;
+}
