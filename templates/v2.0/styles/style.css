@@ -5,6 +5,8 @@
 @import "common.blocks/search/search.css";
 @import "common.blocks/main/main.css";
 @import "common.blocks/post/post.css";
+@import "common.blocks/pagination/pagination.css";
+@import "common.blocks/footer/footer.css";
 
 * {
   padding: 0;

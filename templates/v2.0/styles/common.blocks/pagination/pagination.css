@@ -1,0 +1,11 @@
+@import "pagination__button/pagination__button.css";
+@import "pagination__item/pagination__item.css";
+@import "pagination__items/pagination__items.css";
+
+.pagination {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  height: 35px;
+  border-bottom: 1px solid lightgray;
+}

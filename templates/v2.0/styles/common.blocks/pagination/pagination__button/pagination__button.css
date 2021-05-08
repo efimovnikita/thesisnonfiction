@@ -1,0 +1,11 @@
+.pagination__button {
+  background-color: #333;
+  color: white;
+  height: 100%;
+  padding: 0 10px;
+  text-decoration: none;
+  font-size: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
