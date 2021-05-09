@@ -7,6 +7,8 @@
 @import "common.blocks/post/post.css";
 @import "common.blocks/pagination/pagination.css";
 @import "common.blocks/footer/footer.css";
+@import "common.blocks/body/body.css";
+@import "common.blocks/sidebar/sidebar.css";
 
 * {
   padding: 0;

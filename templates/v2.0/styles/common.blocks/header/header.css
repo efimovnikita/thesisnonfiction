@@ -2,12 +2,21 @@
 @import "header__epigraph/header__epigraph.css";
 @import "header__logo/header__logo.css";
 @import "header__title/header__title.css";
-@import "header__epigraph/_invisible/header__epigraph_invisible.css";
 @import "header__logo-container/header__logo-container.css";
 @import "header__button/_center/header__button_center.css";
+@import "_bottom-margin/header_bottom-margin.css";
 
 .header {
   display: grid;
+  width: 100%;
   grid-template-columns: 2fr max-content;
   padding: var(--blocks-padding);
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+}
+
+@media only screen and (min-width: 400px) {
+  .header {
+    border: 0;
+  }
 }

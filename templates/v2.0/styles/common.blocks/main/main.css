@@ -1,1 +1,22 @@
 @import "main__title/main__title.css";
+
+.main {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-color: rgb(235, 235, 235);
+}
+
+@media only screen and (min-width: 400px) {
+  .main {
+    padding-top: 36px;
+    gap: 36px;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .main {
+    gap: 40px;
+    padding: 40px 0;
+  }
+}

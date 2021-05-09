@@ -1,7 +1,24 @@
 @import "search__input/search__input.css";
+@import "_invisible/search_invisible.css";
 
 .search {
+  margin: 0;
   padding: var(--blocks-padding);
+  width: 100%;
   display: grid;
+  background-color: white;
   border-bottom: 1px solid lightgray;
+}
+
+@media only screen and (min-width: 400px) {
+  .search {
+    width: 86%;
+    border: 0;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .search {
+    width: 100%;
+  }
 }

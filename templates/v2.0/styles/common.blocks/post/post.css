@@ -6,11 +6,21 @@
 @import "post__paragraph/post__paragraph.css";
 @import "post__title/post__title.css";
 @import "post__footer-img/post__footer-img.css";
+@import "post__blogquote/post__blogquote.css";
 
 .post {
-  padding: 10px 0;
+  background-color: white;
 }
 
-.post:last-child {
-  padding-bottom: 0;
+@media only screen and (min-width: 400px) {
+  .post {
+    width: 86%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .post {
+    max-width: 90%;
+    border: 1px solid lightgray;
+  }
 }

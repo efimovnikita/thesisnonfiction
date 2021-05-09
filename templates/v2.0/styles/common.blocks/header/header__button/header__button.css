@@ -6,3 +6,13 @@
   background-color: #fff;
   font-size: 20px;
 }
+
+.header__button:active {
+  background-color: skyblue;
+}
+
+@media only screen and (min-width: 900px) {
+  .header__button {
+    display: none;
+  }
+}

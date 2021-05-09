@@ -1,7 +1,21 @@
 @import "menu__item/menu__item.css";
 @import "menu__list/menu__list.css";
 @import "menu__link/menu__link.css";
+@import "_invisible/menu_invisible.css";
 
 .menu {
   padding: var(--blocks-padding);
+  background-color: white;
+}
+
+@media only screen and (min-width: 400px) {
+  .menu {
+    width: 86%;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .menu {
+    width: 100%;
+  }
 }

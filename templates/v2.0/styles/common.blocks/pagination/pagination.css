@@ -4,8 +4,23 @@
 
 .pagination {
   display: flex;
+  width: 100%;
   align-items: center;
   font-size: 20px;
   height: 35px;
   border-bottom: 1px solid lightgray;
+  background-color: white;
+}
+
+@media only screen and (min-width: 400px) {
+  .pagination {
+    width: 86%;
+    border: 0;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .pagination {
+    border: 1px solid lightgray;
+  }
 }
