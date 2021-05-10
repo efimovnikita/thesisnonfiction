@@ -4,3 +4,9 @@
   border-left: 5px solid gray;
   font-style: italic;
 }
+
+@media only screen and (min-width: 900px) {
+  .post__blogquote {
+    font-size: 20px;
+  }
+}

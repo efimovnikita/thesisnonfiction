@@ -1,3 +1,9 @@
 .pagination__item {
   text-decoration: none;
 }
+
+@media only screen and (min-width: 900px) {
+  .pagination__item {
+    font-size: 28px;
+  }
+}
