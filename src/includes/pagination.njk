@@ -1,17 +1,19 @@
-    <nav>
-      {% if pagination.href.previous %}
-        <a href="{{ pagination.href.previous }}">prev</a>
-      {% else %}
-        <a href="#" class="disabled">prev</a>
+<nav class="pagination">
+  {% if pagination.href.previous %}
+    <a class="pagination__button pagination__button_active" href="{{ pagination.href.previous }}">prev</a>
+  {% else %}
+    <a class="pagination__button pagination__button_inactive" href="#">prev</a>
+  {% endif %}
+  <div class="pagination__items">
+    {%- for pageEntry in pagination.pages %}
+      {% if page.url == pagination.hrefs[ loop.index0 ] %}
+        <a href="#" class="pagination__item">{{ loop.index }}</a>
       {% endif %}
-      {%- for pageEntry in pagination.pages %}
-        {% if page.url == pagination.hrefs[ loop.index0 ] %}
-          <span>Page {{ loop.index }}</span>
-        {% endif %}
-      {%- endfor %}
-      {% if pagination.href.next %}
-        <a href="{{ pagination.href.next }}">next</a>
-      {% else %}
-        <a href="#" class="disabled">next</a>
-      {% endif %}
-    </nav>
+    {%- endfor %}
+  </div>
+  {% if pagination.href.next %}
+    <a class="pagination__button pagination__button_active" href="{{ pagination.href.next }}">next</a>
+  {% else %}
+    <a class="pagination__button pagination__button_inactive" href="#">next</a>
+  {% endif %}
+</nav>

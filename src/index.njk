@@ -5,26 +5,43 @@ pagination:
   size: 10
 ---
 
-{%- for post in pagination.items -%}
-    <article>
-        <h2><a href="{{ post.url }}">{{ post.data.title }}</a></h2>
-        {{ post.templateContent | safe }}
-        <footer>
-        <img src="/images/calendar.svg" alt="date" />
-        <time>{{ post.data.date.toLocaleString() }}</time>
-        <img src="/images/folder.svg" alt="category" />
-        {% set navPages = collections.all | eleventyNavigation %}
-        {%- for entry in navPages %}
-            {% if entry.title == post.data.book %}
-                <aside><a href="{{ entry.url }}">{{ post.data.book }}</a></aside>
-            {% endif %}
-        {%- endfor %}
-        {% if post.data.category %}
-            <img src="/images/label.svg" alt="label" />
-            <aside>
-                <a href="/categories/{{post.data.category}}">{{post.data.category}}</a>
-            </aside>
-        {% endif %}
-        </footer>
+<main class="main">
+  <h2 class="main__title">Цитаты</h2>
+  {%- for post in pagination.items -%}
+    <article class="post">
+      <h3 class="post__title">
+        <a class="post__link" href="{{ post.url }}"
+          >{{ post.data.title }}</a
+        >
+      </h3>
+      {{ post.templateContent | safe }}
+      <footer class="post__footer">
+        <div class="post__date">
+          <img
+            class="post__footer-img"
+            src="/images/calendar.svg"
+            alt="date"
+          />
+          <time>{{ post.data.date.toLocaleString() }}</time>
+        </div>
+        <div class="post__book">
+          <img class="post__footer-img" src="/images/folder.svg" alt="book" />
+          {% set navPages = collections.all | eleventyNavigation %}
+          {%- for entry in navPages %}
+              {% if entry.title == post.data.book %}
+                  <a class="post__link" href="{{ entry.url }}">{{ post.data.book }}</a>
+              {% endif %}
+          {%- endfor %}
+        </div>
+        <div class="post__label">
+          {% if post.data.category %}
+              <img class="post__footer-img" src="/images/label.svg" alt="label" />
+              <a class="post__link" href="/categories/{{post.data.category}}">{{post.data.category}}</a>
+          {% endif %}
+        </div>
+      </footer>
     </article>
-{%- endfor -%}
+  {%- endfor -%}
+  {% include "pagination.njk" %}
+  {% include "footer.njk" %}
+</main>

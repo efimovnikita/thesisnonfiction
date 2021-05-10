@@ -1,0 +1,26 @@
+@import "_invisible/main__title_invisible.css";
+
+.main__title {
+  font-family: "Noto Sans", sans-serif;
+  border-left: 5px solid gray;
+  width: 100%;
+  background-color: white;
+  padding: var(--blocks-padding);
+  border-bottom: 1px solid lightgray;
+}
+
+@media only screen and (min-width: 400px) {
+  .main__title {
+    width: 86%;
+    border-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .main__title {
+    border-top: 1px solid lightgray;
+    border-right: 1px solid lightgray;
+    border-bottom: 1px solid lightgray;
+    font-size: 36px;
+  }
+}

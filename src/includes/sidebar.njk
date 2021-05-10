@@ -1,0 +1,37 @@
+<section class="sidebar">
+  <header id="header" class="header header_bottom-margin">
+    <div class="header__logo-container">
+      <a class="header__logo" href="/"
+        ><img src="/images/logo.jpg" width="84" height="84" alt="Logo"
+      /></a>
+      <h1 class="header__title">Тезисы из научно-популярных книг</h1>
+      <small class="header__epigraph">Примат Сути над видимостью…</small>
+    </div>
+    <button
+      id="button"
+      class="header__button header__button_center"
+      title="Меню"
+    >
+      ✕
+    </button>
+  </header>
+  <nav id="menu" class="menu">
+    <h3 class="title">Прочитанные книги</h3>
+    {% set navPages = collections.all | eleventyNavigation %}
+    <ul class="menu__list">
+      {%- for entry in navPages %}
+          <li class="menu__item">
+            <a class="menu__link" href="{{ entry.url }}">{{ entry.title }}</a>
+          </li>
+      {%- endfor %}
+    </ul>
+  </nav>
+  <nav id="tags" class="tags">
+    <h3 class="title">ТЕГИ</h3>
+    <div class="tags__container">
+      {%- for tag, posts in collections.categories %}
+        <a class="tags__link" href="/categories/{{tag}}">{{ tag }}</a>
+      {%- endfor %}
+    </div>
+  </nav>
+</section>

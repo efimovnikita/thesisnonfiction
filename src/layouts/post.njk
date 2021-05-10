@@ -1,39 +1,42 @@
----
-style: "post"
----
-
 <!DOCTYPE html>
 <html lang="ru">
   {% include "head.njk" %}
-  <body>
-    {% include "header.njk" %}
-    <main>
-      <section>
-        <h2>Post section</h2>
-        <article>
-          <h2><a href="#">{{ title }}</a></h2>
-          {{ content | safe }}
-          <footer>
-            <img src="/images/calendar.svg" alt="date" />
+  <body class="body">
+    {% include "sidebar.njk" %}
+    <main class="main">
+      <article class="post">
+        <h3 class="post__title">
+          <a class="post__link" href="#">{{ title }}</a>
+        </h3>
+        {{ content | safe }}
+        <footer class="post__footer">
+          <div class="post__date">
+            <img
+              class="post__footer-img"
+              src="/images/calendar.svg"
+              alt="date"
+            />
             <time>{{ date.toLocaleString() }}</time>
-            <img src="/images/folder.svg" alt="category" />
+          </div>
+          <div class="post__book">
+            <img class="post__footer-img" src="/images/folder.svg" alt="book" />
             {% set navPages = collections.all | eleventyNavigation %}
             {%- for entry in navPages %}
-            {% if entry.title == book %}
-             <aside><a href="{{ entry.url }}">{{ book }}</a></aside>
-            {% endif %}
+                {% if entry.title == book %}
+                    <a class="post__link" href="{{ entry.url }}">{{ book }}</a>
+                {% endif %}
             {%- endfor %}
+          </div>
+          <div class="post__label">
             {% if category %}
-              <img src="/images/label.svg" alt="label" />
-              <aside>
-                  <a href="/categories/{{category}}">{{category}}</a>
-              </aside>
+                <img class="post__footer-img" src="/images/label.svg" alt="label" />
+                <a class="post__link" href="/categories/{{category}}">{{category}}</a>
             {% endif %}
-          </footer>
-        </article>
-      </section>
+          </div>
+        </footer>
+      </article>
+      {% include "footer.njk" %}
     </main>
-    {% include "footer.njk" %}
-    <script src="/scripts/script.js" async></script>
+    {% include "script.njk" %}
   </body>
 </html>

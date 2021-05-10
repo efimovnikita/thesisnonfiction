@@ -1,0 +1,6 @@
+.pagination__items {
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 16px; */
+  flex-grow: 1;
+}

@@ -1,0 +1,10 @@
+.post__label {
+  display: flex;
+  column-gap: 5px;
+}
+
+@media only screen and (min-width: 900px) {
+  .post__label {
+    font-size: 16px;
+  }
+}

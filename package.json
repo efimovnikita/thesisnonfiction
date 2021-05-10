@@ -7,7 +7,8 @@
     "start": "eleventy --serve --quiet",
     "11ty": "eleventy",
     "pack": "gulp build",
-    "build": "rm -rf dist && npm run 11ty && npm run pack"
+    "build": "rm -rf dist && npm run 11ty && npm run pack",
+    "build-win": "del dist && npm run 11ty && npm run pack"
   },
   "keywords": [],
   "author": "",

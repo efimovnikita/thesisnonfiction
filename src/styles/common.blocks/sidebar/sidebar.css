@@ -1,0 +1,14 @@
+@import "_invisible/sidebar_invisible.css";
+
+.sidebar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(235, 235, 235);
+}
+
+@media only screen and (min-width: 900px) {
+  .sidebar {
+    background-color: white;
+  }
+}

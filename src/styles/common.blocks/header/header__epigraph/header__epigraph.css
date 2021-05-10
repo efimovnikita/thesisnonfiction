@@ -1,0 +1,9 @@
+.header__epigraph {
+  display: none;
+}
+
+@media only screen and (min-width: 400px) {
+  .header__epigraph {
+    display: inline;
+  }
+}

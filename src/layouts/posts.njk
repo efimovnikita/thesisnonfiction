@@ -1,20 +1,9 @@
----
-style: "posts"
----
-
 <!DOCTYPE html>
 <html lang="ru">
   {% include "head.njk" %}
-  <body>
-    {% include "header.njk" %}
-    <main>
-      <section>
-        <h2>Posts section</h2>
-        {{ content | safe }}
-      </section>
-    </main>
-    {% include "pagination.njk" %}
-    {% include "footer.njk" %}
-    <script src="/scripts/script.js" async></script>
+  <body class="body">
+    {% include "sidebar.njk" %}
+    {{ content | safe }}
+    {% include "script.njk" %}
   </body>
 </html>

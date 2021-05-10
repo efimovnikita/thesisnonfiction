@@ -1,0 +1,18 @@
+.header__button {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #d3d3d3;
+  border-radius: 0;
+  background-color: #fff;
+  font-size: 20px;
+}
+
+.header__button:active {
+  background-color: skyblue;
+}
+
+@media only screen and (min-width: 900px) {
+  .header__button {
+    display: none;
+  }
+}
