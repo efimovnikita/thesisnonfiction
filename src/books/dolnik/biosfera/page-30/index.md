@@ -2,7 +2,7 @@
 title: "Государственное регулирование рождаемости"
 date: 2016-04-14
 layout: post.njk
-category: ethology
+category: "этология"
 tags:
   - posts
   - biosfera

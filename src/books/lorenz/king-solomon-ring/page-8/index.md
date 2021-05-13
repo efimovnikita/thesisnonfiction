@@ -2,7 +2,7 @@
 title: "Способность принимать решения"
 date: 2016-04-15
 layout: post.njk
-category: ethology
+category: "этология"
 tags:
   - posts
   - solomonRing

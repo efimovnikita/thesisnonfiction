@@ -2,7 +2,7 @@
 title: "Принцип работы обычной батарейки"
 date: 2017-05-13
 layout: post.njk
-category: mollecular-biology
+category: "моллекулярная биология"
 tags:
   - posts
   - molBiol

@@ -2,7 +2,7 @@
 title: "Важное значение безопасности улиц и качественного образования"
 date: 2016-04-24
 layout: post.njk
-category: urbanism
+category: "урбанизм"
 tags:
   - posts
   - cityTriumph

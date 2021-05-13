@@ -2,7 +2,7 @@
 title: "Роль ствола мозга в пробуждении сознания"
 date: 2016-05-25
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - connectome

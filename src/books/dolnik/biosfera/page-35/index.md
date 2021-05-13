@@ -2,7 +2,7 @@
 title: "Консерватизм и причинно-следственная связь"
 date: 2016-04-12
 layout: post.njk
-category: ethology
+category: "этология"
 tags:
   - posts
   - biosfera

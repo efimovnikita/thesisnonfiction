@@ -2,7 +2,7 @@
 title: "Нейронные коннектомы – ключ к понимаю уникальности каждого человека"
 date: 2016-05-26
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - connectome

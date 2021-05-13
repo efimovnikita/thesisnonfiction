@@ -2,7 +2,7 @@
 title: "Ребенок голого человека"
 date: 2016-04-19
 layout: post.njk
-category: ethology
+category: "этология"
 tags:
   - posts
   - biosfera

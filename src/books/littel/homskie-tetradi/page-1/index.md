@@ -2,7 +2,7 @@
 title: "Чувство нереальности и абстрактная опасность"
 date: 2021-05-10
 layout: post.njk
-category: war
+category: "война"
 tags:
   - posts
   - homskieTetradi

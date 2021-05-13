@@ -2,7 +2,7 @@
 title: "Война – самое худшее и самое лучше в жизни"
 date: 2017-07-14
 layout: post.njk
-category: war
+category: "война"
 tags:
   - posts
   - warSindrome

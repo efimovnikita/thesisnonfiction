@@ -2,7 +2,7 @@
 title: "Вселенная наделенная самосознанием"
 date: 2016-04-14
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - taleBrain

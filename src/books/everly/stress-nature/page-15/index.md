@@ -2,7 +2,7 @@
 title: "Сила воздействия эмоций"
 date: 2016-05-30
 layout: post.njk
-category: psychology
+category: "физиология"
 tags:
   - posts
   - stressNature

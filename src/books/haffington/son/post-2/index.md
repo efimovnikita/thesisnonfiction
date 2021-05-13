@@ -2,7 +2,7 @@
 title: "Сон как метафорическая смерть"
 date: 2017-07-21
 layout: post.njk
-category: somnology
+category: "сомнология"
 tags:
   - posts
   - sleepRevolution

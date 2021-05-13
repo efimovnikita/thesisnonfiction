@@ -1,10 +1,11 @@
 ---
 title: Кевин Сайтс. Синдром войны
 layout: posts.njk
-eleventyNavigation:
-  key: Sayits
-  ulr: sayits/war-sindrome
-  title: "Кевин Сайтс. Синдром войны"
+eleventyComputed:
+  eleventyNavigation:
+    key: Sayits
+    ulr: sayits/war-sindrome
+    title: "{{title}}"
 pagination:
   data: collections.warSindrome
   size: 10

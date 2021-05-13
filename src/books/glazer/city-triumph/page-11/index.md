@@ -2,7 +2,7 @@
 title: "Транспортная перегруженность и борьба с пробками"
 date: 2016-04-24
 layout: post.njk
-category: urbanism
+category: "урбанизм"
 tags:
   - posts
   - cityTriumph

@@ -1,10 +1,11 @@
 ---
 title: Крез. Иностранный для взрослых
 layout: posts.njk
-eleventyNavigation:
-  key: Krez
-  ulr: krez/lang-for-adult
-  title: "Крез. Иностранный для взрослых"
+eleventyComputed:
+  eleventyNavigation:
+    key: Krez
+    ulr: krez/lang-for-adult
+    title: "{{title}}"
 pagination:
   data: collections.langForAdult
   size: 10

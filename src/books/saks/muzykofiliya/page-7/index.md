@@ -2,7 +2,7 @@
 title: "Кажущееся единство восприятия"
 date: 2018-01-18
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - muzykofiliya

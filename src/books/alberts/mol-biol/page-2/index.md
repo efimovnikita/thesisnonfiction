@@ -2,7 +2,7 @@
 title: "Здоровый образ жизни не избавит от рака"
 date: 2018-01-09
 layout: post.njk
-category: mollecular-biology
+category: "моллекулярная биология"
 tags:
   - posts
   - molBiol

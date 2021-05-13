@@ -2,7 +2,7 @@
 title: "Кора замкнутая на себя"
 date: 2016-05-26
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - connectome

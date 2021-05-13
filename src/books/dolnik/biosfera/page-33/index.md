@@ -2,7 +2,7 @@
 title: "Речь ребенка и импринтинг родного языка"
 date: 2016-04-12
 layout: post.njk
-category: ethology
+category: "этология"
 tags:
   - posts
   - biosfera

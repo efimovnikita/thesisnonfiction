@@ -2,7 +2,7 @@
 title: "Можно ли тренировать мозг?"
 date: 2017-07-31
 layout: post.njk
-category: linguistics
+category: "лингвистика"
 tags:
   - posts
   - langForAdult

@@ -2,7 +2,7 @@
 title: "Удивительные способности ребенка к распознаванию образов"
 date: 2017-08-09
 layout: post.njk
-category: pediatrics
+category: "педиатрия"
 tags:
   - posts
   - ibukaPozdno

@@ -2,7 +2,7 @@
 title: "Смещение фокуса"
 date: 2018-02-22
 layout: post.njk
-category: psychology
+category: "физиология"
 tags:
   - posts
   - silaVoli

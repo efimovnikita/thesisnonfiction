@@ -2,7 +2,7 @@
 title: "Ограничение строительства в городе приводит к застою и росту цен"
 date: 2016-04-25
 layout: post.njk
-category: urbanism
+category: "урбанизм"
 tags:
   - posts
   - cityTriumph

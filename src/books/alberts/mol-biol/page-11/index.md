@@ -2,7 +2,7 @@
 title: "Отсутствие сигналов вызывает апоптоз"
 date: 2017-05-16
 layout: post.njk
-category: mollecular-biology
+category: "моллекулярная биология"
 tags:
   - posts
   - molBiol

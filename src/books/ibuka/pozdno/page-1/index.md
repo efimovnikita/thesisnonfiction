@@ -2,7 +2,7 @@
 title: "Интерес – лучше побуждение к действию"
 date: 2017-08-10
 layout: post.njk
-category: pediatrics
+category: "педиатрия"
 tags:
   - posts
   - ibukaPozdno

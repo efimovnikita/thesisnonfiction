@@ -2,7 +2,7 @@
 title: "Важное значение регуляции дыхания"
 date: 2016-06-05
 layout: post.njk
-category: psychology
+category: "физиология"
 tags:
   - posts
   - stressNature

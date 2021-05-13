@@ -1,10 +1,11 @@
 ---
 title: Книги о войне
 layout: posts.njk
-eleventyNavigation:
-  key: AboutWar
-  ulr: books-about-war
-  title: "Книги о войне"
+eleventyComputed:
+  eleventyNavigation:
+    key: AboutWar
+    ulr: books-about-war
+    title: "{{title}}"
 pagination:
   data: collections.aboutWar
   size: 10

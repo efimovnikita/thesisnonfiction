@@ -2,7 +2,7 @@
 title: "Корковое картирование"
 date: 2018-01-19
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - muzykofiliya

@@ -2,7 +2,7 @@
 title: "Рекомбинация связей у взрослых"
 date: 2016-05-22
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - connectome

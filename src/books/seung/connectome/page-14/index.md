@@ -2,7 +2,7 @@
 title: "Нейрон голубых глаз"
 date: 2016-05-19
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - connectome

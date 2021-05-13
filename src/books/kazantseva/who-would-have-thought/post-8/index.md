@@ -2,7 +2,7 @@
 title: "Стресс – неспецифическая реакция на новизну"
 book: "Ася Казанцева. Кто бы мог подумать!"
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - whoWouldHaveThought

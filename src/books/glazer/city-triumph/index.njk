@@ -1,10 +1,11 @@
 ---
 title: Эдвард Глейзер. Триумф города
 layout: posts.njk
-eleventyNavigation:
-  key: Glazer
-  ulr: glazer/city-triumph
-  title: "Эдвард Глейзер. Триумф города"
+eleventyComputed:
+  eleventyNavigation:
+    key: Glazer
+    ulr: glazer/city-triumph
+    title: "{{title}}"
 pagination:
   data: collections.cityTriumph
   size: 10

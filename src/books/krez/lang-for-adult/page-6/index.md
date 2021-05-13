@@ -2,7 +2,7 @@
 title: "Сравнение мозга с мышцей"
 date: 2017-07-31
 layout: post.njk
-category: linguistics
+category: "лингвистика"
 tags:
   - posts
   - langForAdult

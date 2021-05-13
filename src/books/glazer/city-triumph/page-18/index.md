@@ -2,7 +2,7 @@
 title: "Урбанизация и жизнь в густонаселенных городах"
 date: 2016-04-22
 layout: post.njk
-category: urbanism
+category: "урбанизм"
 tags:
   - posts
   - cityTriumph

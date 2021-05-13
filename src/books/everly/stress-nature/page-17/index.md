@@ -2,7 +2,7 @@
 title: "Интерпретация внешних стимулов"
 date: 2016-05-29
 layout: post.njk
-category: psychology
+category: "физиология"
 tags:
   - posts
   - stressNature

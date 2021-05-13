@@ -2,7 +2,7 @@
 title: "Эндорфины и экстремальный спорт"
 book: "Ася Казанцева. Кто бы мог подумать!"
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - whoWouldHaveThought

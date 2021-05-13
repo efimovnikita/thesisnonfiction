@@ -2,7 +2,7 @@
 title: "Война обесценивает конкуренцию за мирные блага"
 date: 2017-05-11
 layout: post.njk
-category: war
+category: "война"
 tags:
   - posts
   - aboutWar

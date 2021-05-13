@@ -2,7 +2,7 @@
 title: "Плата за использование автодорог"
 date: 2016-04-27
 layout: post.njk
-category: urbanism
+category: "урбанизм"
 tags:
   - posts
   - cityTriumph

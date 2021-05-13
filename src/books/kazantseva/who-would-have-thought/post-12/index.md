@@ -2,7 +2,7 @@
 title: "Градиент вещества и система вознаграждения"
 book: "Ася Казанцева. Кто бы мог подумать!"
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - whoWouldHaveThought

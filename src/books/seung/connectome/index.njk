@@ -1,10 +1,11 @@
 ---
 title: Себастьян Сеунг. Коннектом. Как мозг делает нас тем, что мы есть
 layout: posts.njk
-eleventyNavigation:
-  key: Seung
-  ulr: seung/connectome
-  title: "Себастьян Сеунг. Коннектом. Как мозг делает нас тем, что мы есть"
+eleventyComputed:
+  eleventyNavigation:
+    key: Seung
+    ulr: seung/connectome
+    title: "{{title}}"
 pagination:
   data: collections.connectome
   size: 10

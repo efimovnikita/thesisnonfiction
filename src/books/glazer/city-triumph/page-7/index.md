@@ -2,7 +2,7 @@
 title: "Опасность законсервированного города"
 date: 2016-04-25
 layout: post.njk
-category: urbanism
+category: "урбанизм"
 tags:
   - posts
   - cityTriumph

@@ -2,7 +2,7 @@
 title: "Индустрия по производству снотворных"
 date: 2017-07-18
 layout: post.njk
-category: somnology
+category: "сомнология"
 tags:
   - posts
   - sleepRevolution

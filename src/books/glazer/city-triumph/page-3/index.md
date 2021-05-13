@@ -2,7 +2,7 @@
 title: "Иллюзия успеха и потемкинские деревни"
 date: 2016-04-26
 layout: post.njk
-category: urbanism
+category: "урбанизм"
 tags:
   - posts
   - cityTriumph

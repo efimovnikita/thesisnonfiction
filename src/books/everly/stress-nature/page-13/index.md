@@ -2,7 +2,7 @@
 title: "Мифы о стрессе"
 date: 2016-05-31
 layout: post.njk
-category: psychology
+category: "физиология"
 tags:
   - posts
   - stressNature

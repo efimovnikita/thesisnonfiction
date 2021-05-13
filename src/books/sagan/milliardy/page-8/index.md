@@ -2,7 +2,7 @@
 title: "Если внешнего врага нет, то его стоит придумать"
 date: 2017-07-10
 layout: post.njk
-category: sociology
+category: "социология"
 tags:
   - posts
   - saganMilliardy

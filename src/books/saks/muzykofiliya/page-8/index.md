@@ -2,7 +2,7 @@
 title: "Истоки галлюцинаций"
 date: 2018-01-16
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - muzykofiliya

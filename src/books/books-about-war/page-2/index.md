@@ -2,7 +2,7 @@
 title: "Мирный инженер"
 date: 2017-05-12
 layout: post.njk
-category: war
+category: "война"
 tags:
   - posts
   - aboutWar

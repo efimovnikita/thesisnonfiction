@@ -1,10 +1,11 @@
 ---
 title: Карл Саган. Миллиарды и миллиарды
 layout: posts.njk
-eleventyNavigation:
-  key: Sagan
-  ulr: sagan/milliardy
-  title: "Карл Саган. Миллиарды и миллиарды"
+eleventyComputed:
+  eleventyNavigation:
+    key: Sagan
+    ulr: sagan/milliardy
+    title: "{{title}}"
 pagination:
   data: collections.saganMilliardy
   size: 10

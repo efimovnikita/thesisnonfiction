@@ -2,7 +2,7 @@
 title: "Мишени этанола в мозге"
 book: "Ася Казанцева. Кто бы мог подумать!"
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - whoWouldHaveThought

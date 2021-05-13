@@ -2,7 +2,7 @@
 title: "Отношение ко сну и путь к себе"
 date: 2017-07-24
 layout: post.njk
-category: somnology
+category: "сомнология"
 tags:
   - posts
   - sleepRevolution

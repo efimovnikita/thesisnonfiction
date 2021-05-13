@@ -2,7 +2,7 @@
 title: "Коннектом – русло ментальной реки"
 date: 2016-05-17
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - connectome

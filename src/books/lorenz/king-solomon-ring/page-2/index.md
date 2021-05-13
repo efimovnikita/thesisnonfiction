@@ -2,7 +2,7 @@
 title: "Механический характер сигнализации животных"
 date: 2016-04-18
 layout: post.njk
-category: ethology
+category: "этология"
 tags:
   - posts
   - solomonRing

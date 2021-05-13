@@ -2,7 +2,7 @@
 title: "Власть правительства можно ограничивать"
 date: 2017-08-07
 layout: post.njk
-category: physics
+category: "физика"
 tags:
   - posts
   - naukaNeNauka

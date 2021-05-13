@@ -2,7 +2,7 @@
 title: "Фрагмент речи Джобса в Стенфорде"
 date: 2017-07-21
 layout: post.njk
-category: somnology
+category: "сомнология"
 tags:
   - posts
   - sleepRevolution

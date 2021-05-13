@@ -2,7 +2,7 @@
 title: "Связь синестезии с метафорой и творчеством"
 date: 2016-04-12
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - taleBrain

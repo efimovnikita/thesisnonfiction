@@ -2,7 +2,7 @@
 title: "Транспорт глюкозы клетками кишечника"
 date: 2017-05-11
 layout: post.njk
-category: mollecular-biology
+category: "моллекулярная биология"
 tags:
   - posts
   - molBiol

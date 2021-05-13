@@ -2,7 +2,7 @@
 title: "Недосыпание вызывает изменение экспрессии генов"
 date: 2017-07-18
 layout: post.njk
-category: somnology
+category: "сомнология"
 tags:
   - posts
   - sleepRevolution

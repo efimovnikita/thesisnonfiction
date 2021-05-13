@@ -2,7 +2,7 @@
 title: "Эксперимент на который жалко даже лягушку"
 date: 2016-04-17
 layout: post.njk
-category: ethology
+category: "этология"
 tags:
   - posts
   - biosfera

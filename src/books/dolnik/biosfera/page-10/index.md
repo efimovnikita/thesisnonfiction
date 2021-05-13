@@ -2,7 +2,7 @@
 title: "Клубок противоречий для разума и табу"
 date: 2016-04-17
 layout: post.njk
-category: ethology
+category: "этология"
 tags:
   - posts
   - biosfera

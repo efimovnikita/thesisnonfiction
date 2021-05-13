@@ -2,7 +2,7 @@
 title: "Зрение – ключ к пониманию работы мозга"
 date: 2017-05-18
 layout: post.njk
-category: phisiology
+category: "физиология"
 tags:
   - posts
   - visionRevolution

@@ -2,7 +2,7 @@
 title: "О важности всеобщей грамотности"
 date: 2017-07-12
 layout: post.njk
-category: sociology
+category: "социология"
 tags:
   - posts
   - saganMilliardy

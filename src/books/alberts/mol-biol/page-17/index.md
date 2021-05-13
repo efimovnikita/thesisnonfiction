@@ -2,7 +2,7 @@
 title: "Как работает бурый жир?"
 date: 2017-05-13
 layout: post.njk
-category: mollecular-biology
+category: "моллекулярная биология"
 tags:
   - posts
   - molBiol

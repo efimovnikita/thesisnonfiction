@@ -2,7 +2,7 @@
 title: "Зрение и обратные проекции в мозге"
 date: 2016-04-13
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - taleBrain

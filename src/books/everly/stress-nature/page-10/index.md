@@ -2,7 +2,7 @@
 title: "Кофеин – стимулятор ЦНС"
 date: 2016-06-02
 layout: post.njk
-category: psychology
+category: "физиология"
 tags:
   - posts
   - stressNature

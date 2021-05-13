@@ -2,7 +2,7 @@
 title: "Отношение между предложением жилья и доступностью цен"
 date: 2016-04-23
 layout: post.njk
-category: urbanism
+category: "урбанизм"
 tags:
   - posts
   - cityTriumph

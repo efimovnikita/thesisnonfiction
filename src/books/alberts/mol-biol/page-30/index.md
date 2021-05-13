@@ -2,7 +2,7 @@
 title: "Распознавание углеводов на поверхности нейтрофилов"
 date: 2017-05-10
 layout: post.njk
-category: mollecular-biology
+category: "моллекулярная биология"
 tags:
   - posts
   - molBiol

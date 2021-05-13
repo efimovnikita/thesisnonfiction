@@ -1,10 +1,11 @@
 ---
 title: Масару Ибука. После трёх уже поздно
 layout: posts.njk
-eleventyNavigation:
-  key: Ibuka
-  ulr: ibuka/pozdno
-  title: "Масару Ибука. После трёх уже поздно"
+eleventyComputed:
+  eleventyNavigation:
+    key: Ibuka
+    ulr: ibuka/pozdno
+    title: "{{title}}"
 pagination:
   data: collections.ibukaPozdno
   size: 10

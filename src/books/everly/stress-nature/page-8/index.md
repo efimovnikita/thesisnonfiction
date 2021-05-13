@@ -2,7 +2,7 @@
 title: "Инсулиноподобное действие релаксации"
 date: 2016-06-04
 layout: post.njk
-category: psychology
+category: "физиология"
 tags:
   - posts
   - stressNature

@@ -2,7 +2,7 @@
 title: "Связь бедности и высокой рождаемости"
 date: 2017-07-06
 layout: post.njk
-category: sociology
+category: "социология"
 tags:
   - posts
   - saganMilliardy

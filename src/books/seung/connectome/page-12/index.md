@@ -2,7 +2,7 @@
 title: "Взаимодействия между областями порождают умственно-психические функции"
 date: 2016-05-21
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - connectome

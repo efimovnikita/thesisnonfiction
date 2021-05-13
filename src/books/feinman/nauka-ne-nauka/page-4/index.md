@@ -2,7 +2,7 @@
 title: "Истинная причина существования науки"
 date: 2017-08-05
 layout: post.njk
-category: physics
+category: "физика"
 tags:
   - posts
   - naukaNeNauka

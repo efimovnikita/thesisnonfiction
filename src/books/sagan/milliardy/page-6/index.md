@@ -2,7 +2,7 @@
 title: "Ещё два правила"
 date: 2017-07-11
 layout: post.njk
-category: sociology
+category: "социология"
 tags:
   - posts
   - saganMilliardy

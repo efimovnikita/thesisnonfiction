@@ -2,7 +2,7 @@
 title: "Упражнения – уникальный психотерапевтический фактор"
 date: 2016-06-06
 layout: post.njk
-category: psychology
+category: "физиология"
 tags:
   - posts
   - stressNature

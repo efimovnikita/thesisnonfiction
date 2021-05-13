@@ -2,7 +2,7 @@
 title: "A Universe of Atoms, An Atom In The Universe"
 date: 2021-05-07
 layout: post.njk
-category: physics
+category: "физика"
 tags:
   - posts
   - naukaNeNauka

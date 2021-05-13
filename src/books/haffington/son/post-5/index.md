@@ -2,7 +2,7 @@
 title: "Смысл событий через призму их взаимосвязи"
 date: 2017-07-18
 layout: post.njk
-category: somnology
+category: "сомнология"
 tags:
   - posts
   - sleepRevolution

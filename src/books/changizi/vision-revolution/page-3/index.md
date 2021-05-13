@@ -2,7 +2,7 @@
 title: "Эволюция и зрительная система"
 date: 2017-05-19
 layout: post.njk
-category: phisiology
+category: "физиология"
 tags:
   - posts
   - visionRevolution

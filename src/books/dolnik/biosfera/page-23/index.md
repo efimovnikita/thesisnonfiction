@@ -2,7 +2,7 @@
 title: "Управляемая ненависть авторитарных режимов"
 date: 2016-04-15
 layout: post.njk
-category: ethology
+category: "этология"
 tags:
   - posts
   - biosfera

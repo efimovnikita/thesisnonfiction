@@ -2,7 +2,7 @@
 title: "О роли родителей и воспитании"
 date: 2016-04-14
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - taleBrain

@@ -2,7 +2,7 @@
 title: "Эксперименты с базовым доходом для граждан"
 date: 2017-07-02
 layout: post.njk
-category: robotics
+category: "робототехника"
 tags:
   - posts
   - roboticus

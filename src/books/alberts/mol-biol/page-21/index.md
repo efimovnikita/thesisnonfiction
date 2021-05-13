@@ -2,7 +2,7 @@
 title: "Отличие жира от гликогена"
 date: 2017-05-12
 layout: post.njk
-category: mollecular-biology
+category: "моллекулярная биология"
 tags:
   - posts
   - molBiol

@@ -1,10 +1,11 @@
 ---
 title: Ричард Фейнман. Наука, не-наука и все-все-все
 layout: posts.njk
-eleventyNavigation:
-  key: Feinman
-  ulr: feinman/nauka-ne-nauka
-  title: "Ричард Фейнман. Наука, не-наука и все-все-все"
+eleventyComputed:
+  eleventyNavigation:
+    key: Feinman
+    ulr: feinman/nauka-ne-nauka
+    title: "{{title}}"
 pagination:
   data: collections.naukaNeNauka
   size: 10

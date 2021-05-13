@@ -2,7 +2,7 @@
 title: "Закон Брукса или приоритет нейронной организации"
 date: 2016-05-16
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - connectome

@@ -2,7 +2,7 @@
 title: "Иерархическая система организации мозговых зон"
 date: 2016-04-12
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - taleBrain

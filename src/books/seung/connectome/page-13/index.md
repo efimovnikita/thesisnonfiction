@@ -2,7 +2,7 @@
 title: "Клеточные ансамбли и фрагменты воспоминаний"
 date: 2016-05-20
 layout: post.njk
-category: neurophysiology
+category: "нейрофизиология"
 tags:
   - posts
   - connectome

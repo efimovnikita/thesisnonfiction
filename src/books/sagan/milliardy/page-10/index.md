@@ -2,7 +2,7 @@
 title: "Количественная характеристика – первый шаг к подлинному познанию"
 date: 2017-07-06
 layout: post.njk
-category: sociology
+category: "социология"
 tags:
   - posts
   - saganMilliardy

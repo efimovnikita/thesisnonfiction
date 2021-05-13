@@ -2,7 +2,7 @@
 title: "Человечество предпочитает мыслить крайностями"
 date: 2017-07-10
 layout: post.njk
-category: sociology
+category: "социология"
 tags:
   - posts
   - saganMilliardy

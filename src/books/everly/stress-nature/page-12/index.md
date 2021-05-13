@@ -2,7 +2,7 @@
 title: "Важное значение психотерапевтического консультирования"
 date: 2016-06-01
 layout: post.njk
-category: psychology
+category: "физиология"
 tags:
   - posts
   - stressNature
