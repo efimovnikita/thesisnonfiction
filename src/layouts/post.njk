@@ -3,7 +3,7 @@
   {% include "head.njk" %}
   <body class="body">
     {% include "sidebar.njk" %}
-    <main class="main">
+    <main id="main" class="main">
       <article class="post">
         <h3 class="post__title">
           <a class="post__link" href="#">{{ title }}</a>
@@ -23,14 +23,14 @@
             {% set navPages = collections.all | eleventyNavigation %}
             {%- for entry in navPages %}
                 {% if entry.title == book %}
-                    <a class="post__link" href="{{ entry.url }}">{{ book }}</a>
+                    <a class="post__link" href="{{ entry.url }}#main">{{ book }}</a>
                 {% endif %}
             {%- endfor %}
           </div>
           <div class="post__label">
             {% if category %}
                 <img class="post__footer-img" src="/images/label.svg" alt="label" />
-                <a class="post__link" href="/categories/{{category}}">{{category}}</a>
+                <a class="post__link" href="/categories/{{category}}#main">{{category}}</a>
             {% endif %}
           </div>
         </footer>
