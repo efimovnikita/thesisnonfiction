@@ -30,7 +30,7 @@
     <h3 class="title">ТЕГИ</h3>
     <div class="tags__container">
       {%- for tag, posts in collections.categories %}
-        <a class="tags__link" href="/categories/{{tag}}#main">{{ tag }}</a>
+        <a class="tags__link{% if posts.length < 10 %} tags__link-sm{% elif posts.length >= 10 and posts.length < 20 %} tags__link-m{% elif posts.length > 20 %} tags__link-l{% endif %}" href="/categories/{{tag}}#main">{{ tag }}</a>
       {%- endfor %}
     </div>
   </nav>

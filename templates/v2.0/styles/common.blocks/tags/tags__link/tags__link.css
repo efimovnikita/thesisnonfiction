@@ -1,3 +1,7 @@
+@import "-sm/tags__link-sm.css";
+@import "-m/tags__link-m.css";
+@import "-l/tags__link-l.css";
+
 .tags__link {
   text-decoration: none;
 }

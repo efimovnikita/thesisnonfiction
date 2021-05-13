@@ -1,5 +1,6 @@
 .tags__container {
   display: flex;
+  align-items: baseline;
   flex-wrap: wrap;
   gap: 15px;
   padding: var(--menu-and-tags-padding);
