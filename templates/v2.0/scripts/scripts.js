@@ -29,3 +29,23 @@ window.addEventListener("resize", function () {
     }
   }
 });
+
+// summary
+let articles = document.querySelectorAll("article");
+articles.forEach((article) => {
+  let paragraphs = article.querySelectorAll(["p", "blockquote"]);
+  if (paragraphs.length > 1) {
+    let details = document.createElement("details");
+    let summary = document.createElement("summary");
+    summary.innerHTML = "читать далее...";
+    details.appendChild(summary);
+    paragraphs.forEach((paragraph, index) => {
+      if (index !== 0) {
+        details.appendChild(paragraph);
+      }
+    });
+
+    let footer = article.querySelector("footer");
+    article.insertBefore(details, footer);
+  }
+});
