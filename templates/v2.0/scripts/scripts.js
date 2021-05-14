@@ -32,20 +32,23 @@ window.addEventListener("resize", function () {
 
 // summary
 let articles = document.querySelectorAll("article");
-articles.forEach((article) => {
-  let paragraphs = article.querySelectorAll(["p", "blockquote"]);
-  if (paragraphs.length > 1) {
-    let details = document.createElement("details");
-    let summary = document.createElement("summary");
-    summary.innerHTML = "читать далее...";
-    details.appendChild(summary);
-    paragraphs.forEach((paragraph, index) => {
-      if (index !== 0) {
-        details.appendChild(paragraph);
-      }
-    });
+if (articles.length > 1) {
+  articles.forEach((article) => {
+    let postElements = [...article.children];
 
-    let footer = article.querySelector("footer");
-    article.insertBefore(details, footer);
-  }
-});
+    if (postElements.length > 3) {
+      let details = document.createElement("details");
+      let summary = document.createElement("summary");
+      summary.innerHTML = "читать далее...";
+      details.appendChild(summary);
+
+      postElements.forEach((element, index) => {
+        if (index > 1 && element.tagName !== "FOOTER") {
+          details.appendChild(element);
+        }
+      });
+
+      article.insertBefore(details, article.querySelector("footer"));
+    }
+  });
+}

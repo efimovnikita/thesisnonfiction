@@ -19,9 +19,29 @@
   padding: 0 25px;
 }
 
-/* .post details:not([open]) > p {
+.post ol {
+  padding: 0 60px;
+}
+
+.post details[open] > ol {
   padding-bottom: 15px;
-} */
+}
+
+.post details[open] > ol:last-child {
+  padding-bottom: 0;
+}
+
+.post ul {
+  padding: 0 60px;
+}
+
+.post details[open] > ul {
+  padding-bottom: 15px;
+}
+
+.post details[open] > ul:last-child {
+  padding-bottom: 0;
+}
 
 .post details[open] > p {
   padding-bottom: 15px;
@@ -43,6 +63,7 @@
   padding: 0 25px;
   cursor: pointer;
   text-transform: uppercase;
+  font-weight: bold;
 }
 
 .post details[open] > summary {
@@ -53,6 +74,10 @@
   padding: 0 25px;
   border-left: 6px solid gray;
   font-style: italic;
+}
+
+.post blockquote p {
+  padding: 0;
 }
 
 @media only screen and (min-width: 400px) {
@@ -68,6 +93,14 @@
   }
 
   .post p {
+    font-size: 20px;
+  }
+
+  .post ol li {
+    font-size: 20px;
+  }
+
+  .post ul li {
     font-size: 20px;
   }
 

@@ -10,17 +10,74 @@
 
 .post {
   background-color: white;
+  display: grid;
+  gap: 15px;
+  padding-top: 15px;
 }
 
 .post p {
-  padding: 15px 25px;
+  padding: 0 25px;
+}
+
+.post ol {
+  padding: 0 60px;
+}
+
+.post details[open] > ol {
+  padding-bottom: 15px;
+}
+
+.post details[open] > ol:last-child {
+  padding-bottom: 0;
+}
+
+.post ul {
+  padding: 0 60px;
+}
+
+.post details[open] > ul {
+  padding-bottom: 15px;
+}
+
+.post details[open] > ul:last-child {
+  padding-bottom: 0;
+}
+
+.post details[open] > p {
+  padding-bottom: 15px;
+}
+
+.post details[open] > p:last-child {
+  padding-bottom: 0;
+}
+
+.post details[open] > blockquote {
+  margin-bottom: 15px;
+}
+
+.post details[open] > blockquote:last-child {
+  margin-bottom: 0;
+}
+
+.post summary {
+  padding: 0 25px;
+  cursor: pointer;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.post details[open] > summary {
+  padding-bottom: 15px;
 }
 
 .post blockquote {
-  padding: 15px 25px;
-  margin-left: 25px;
-  border-left: 5px solid gray;
+  padding: 0 25px;
+  border-left: 6px solid gray;
   font-style: italic;
+}
+
+.post blockquote p {
+  padding: 0;
 }
 
 @media only screen and (min-width: 400px) {
@@ -36,6 +93,14 @@
   }
 
   .post p {
+    font-size: 20px;
+  }
+
+  .post ol li {
+    font-size: 20px;
+  }
+
+  .post ul li {
     font-size: 20px;
   }
 
