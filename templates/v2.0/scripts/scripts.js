@@ -3,6 +3,12 @@ document.getElementById("button").addEventListener("click", function () {
   var tags = document.getElementById("tags");
   var header = document.getElementById("header");
 
+  if (this.innerHTML == "✕") {
+    this.innerHTML = "☰";
+  } else {
+    this.innerHTML = "✕";
+  }
+
   header.classList.toggle("header_bottom-margin");
   menu.classList.toggle("menu_invisible");
   tags.classList.toggle("tags_invisible");
