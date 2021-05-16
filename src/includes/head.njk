@@ -42,4 +42,8 @@
   {% else %}
     <title>Тезисы из научно-популярных книг</title>
   {% endif %}
+  <script>
+    if ("serviceWorker" in navigator)
+      navigator.serviceWorker.register("/service-worker.js");
+  </script> 
 </head>
