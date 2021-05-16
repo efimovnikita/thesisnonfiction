@@ -28,6 +28,7 @@
     "postcss": "^8.2.13"
   },
   "dependencies": {
+    "eleventy-plugin-pwa": "^1.0.8",
     "html-minifier": "^4.0.0",
     "postcss-csso": "^5.0.1",
     "postcss-import": "^14.0.1"

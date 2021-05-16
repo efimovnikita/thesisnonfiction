@@ -1,11 +1,13 @@
 const eleventyNavigationPlugin = require("@11ty/eleventy-navigation");
 const htmlmin = require("html-minifier");
+const pluginPWA = require("eleventy-plugin-pwa");
 
 module.exports = (config) => {
   config.addPassthroughCopy("src/images");
   config.addPassthroughCopy("src/scripts");
   config.addPassthroughCopy("src/styles");
   config.addPassthroughCopy("src/fonts");
+  config.addPassthroughCopy("src/manifest.json");
 
   getCatList = function (collection) {
     let catSet = new Set();
@@ -41,6 +43,8 @@ module.exports = (config) => {
   config.addCollection("categoryList", getCatList);
 
   config.addPlugin(eleventyNavigationPlugin);
+
+  config.addPlugin(pluginPWA);
 
   config.addFilter("htmlmin", (value) => {
     return htmlmin.minify(value, {

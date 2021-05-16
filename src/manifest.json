@@ -1,0 +1,39 @@
+{
+  "short_name": "Theses",
+  "name": "Thesis non fiction",
+  "icons": [
+    {
+      "src": "/images/android-chrome-192x192.png",
+      "type": "image/png",
+      "sizes": "192x192",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/images/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": "/",
+  "background_color": "#fff",
+  "display": "standalone",
+  "scope": "/",
+  "theme_color": "#fff",
+  "shortcuts": [
+    {
+      "name": "Abstracts from popular science literature",
+      "short_name": "Theses",
+      "description": "Abstracts from popular science literature",
+      "url": "/",
+      "icons": [{ "src": "/images/android-chrome-192x192.png", "sizes": "192x192" }]
+    }
+  ],
+  "description": "Abstracts from popular science literature",
+  "screenshots": [
+    {
+      "src": "/images/screenshot.png",
+      "type": "image/png",
+      "sizes": "540x720"
+    }
+  ]
+}

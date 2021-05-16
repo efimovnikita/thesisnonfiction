@@ -1,3 +1,6 @@
+if ("serviceWorker" in navigator)
+    navigator.serviceWorker.register("/service-worker.js");
+
 document.getElementById("button").addEventListener("click", function () {
   var menu = document.getElementById("menu");
   var tags = document.getElementById("tags");
