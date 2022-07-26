@@ -6,6 +6,7 @@ category: "публицистика"
 tags:
   - posts
   - tolstoy
+  - christianity
 book: "Лев Толстой. Христианство и патриотизм"
 ---
 
